@@ -55,9 +55,9 @@ NAMING & CONVENTIONS USED:
   --ExtraBold: 800;
 
   /* 1.1.3  Font sizes */
-  --H1-FontSize: 50pt;
+  --H1-FontSize: 80pt;
   --H2-FontSize: 40pt;
-  --H3-FontSize: 30pt;
+  --H3-FontSize: 26pt;
   --H4-FontSize: 25pt;
   --H5-FontSize: 20pt;
   --H6-FontSize: 16pt;
@@ -128,12 +128,12 @@ NAMING & CONVENTIONS USED:
 
 /* 3.1.3 Heading 3 */
 .WCEU2023-HeadingThree {
-  font-family: var(--Mulish);
-  font-weight: var(--Bold);
+  font-family: var(--Philosopher);
+  font-weight: var(--SemiBold);
   font-size: var(--H3-FontSize);
   color: var(--WCEU2023-AlmostBlack-100);
-  letter-spacing: 2%;
-  line-height: 34pt;
+  display: block;
+  margin-bottom: 30pt;
 }
 
 /* 3.1.4 Heading 4 */
@@ -168,5 +168,6 @@ NAMING & CONVENTIONS USED:
   font-size: var(--Body-FontSize);
   color: var(--WCEU2023-AlmostBlack-100);
   line-height: 40pt;
+  display: block;
   margin-bottom: 30pt; /* Not sure if this is the right way to do paragraph spacing */
 }
