@@ -30,6 +30,7 @@ TABLE OF CONTENTS -- PLEASE KEEP UPDATED
     3.3 Lists *** To be added ***
     3.4 Links *** To be added ***
     3.5 Buttons *** To be added ***
+4. Header 
 
     
 2. Default styles: Default styles for the theme.
@@ -170,4 +171,10 @@ NAMING & CONVENTIONS USED:
   line-height: 40pt;
   display: block;
   margin-bottom: 30pt; /* Not sure if this is the right way to do paragraph spacing */
+}
+
+/* 3.3 Header */
+.wp-block-navigation-item__label {
+  font-family: var(--Mulish);
+  font-size: 1.6rem;
 }
