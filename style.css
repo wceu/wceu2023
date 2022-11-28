@@ -181,5 +181,5 @@ NAMING & CONVENTIONS USED:
 }
 
 body {
-  --wp--style--global--content-size: 1680px;
+  --wp--style--global--content-size: 1680px!important;
 }
