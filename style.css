@@ -180,8 +180,6 @@ NAMING & CONVENTIONS USED:
   color: var(--WCEU2023-DarkBlue-100);
 }
 
-.wp-block-navigation-item__label:hover {
-  text-decoration: none;
-  color: var(--WCEU2023-Red-100);
+body {
+  --wp--style--global--content-size: 1680px;
 }
-
