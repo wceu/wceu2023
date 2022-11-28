@@ -176,5 +176,12 @@ NAMING & CONVENTIONS USED:
 /* 3.3 Header */
 .wp-block-navigation-item__label {
   font-family: var(--Mulish);
-  font-size: 1.6rem;
+  font-size: 1.5rem;
+  color: var(--WCEU2023-DarkBlue-100);
 }
+
+.wp-block-navigation-item__label:hover {
+  text-decoration: none;
+  color: var(--WCEU2023-Red-100);
+}
+
