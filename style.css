@@ -199,7 +199,10 @@ a. FIGMA MESURE UNITS CHEAT SHEET:
   font-size: 1.5rem;
   color: var(--WCEU2023-DarkBlue-100);
 }
-
+.wp-block-social-links .wp-social-link svg {
+    height: 2em;
+    width: 2em;
+}
 body {
   --wp--style--global--content-size: 1680px !important;
 }
