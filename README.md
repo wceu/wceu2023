@@ -1,11 +1,4 @@
-<p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
-  <a href="#" target="_blank">
-    <img alt="License: GPL--2.0--or--later" src="https://img.shields.io/badge/License-GPL--2.0--or--later-yellow.svg" />
-  </a>
-</p>
-
-# WCEU2023
+# WordCamp Europe, Athens 2023
 
 > Resources for the WCEU 2023 website.
 >
