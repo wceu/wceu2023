@@ -2,12 +2,16 @@
 	========================================================================== */
 
 footer {
+	background-image: url('//europe.wordcamp.org/2023/files/2022/12/footer-background-symbol.png');
+	background-size: 800px;
+	background-repeat: no-repeat;
+	background-position: top 200px right;
 	a,
 	p,
 	h4 {
 		color: #fff!important; // !importart is needed because there's a glocal rule in Additional CSS panel. Please remove it when the global rule is removed.
 	}
-	.wp-block-navigation-item__label {
+	.wp-block-navigation__container span {
 		font-size: "1.2rem";
 		color: #fff;
 	}
