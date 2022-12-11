@@ -1,0 +1,19 @@
+{
+  "name": "wceu2023",
+  "version": "1.0.0",
+  "description": "Resources for the WCEU 2023 website",
+  "author": "WCEU2023 Website Team",
+  "license": "GPL-2.0-or-later",
+  "private": true,
+  "devDependencies": {
+    "@wordpress/scripts": "^24.6.0"
+  },
+  "scripts": {
+    "build": "wp-scripts build ./src/wceu2023.js",
+    "format": "wp-scripts format",
+    "lint:css": "wp-scripts lint-style",
+    "packages-update": "wp-scripts packages-update",
+    "start": "wp-scripts start"
+  },
+  "main": "index.js"
+}

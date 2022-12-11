@@ -1,0 +1,79 @@
+/*  3. Typography
+    3.1 Headings
+        3.1.1 Heading 1
+        3.1.2 Heading 2
+        3.1.3 Heading 3
+        3.1.4 Heading 4
+        3.1.5 Heading 5
+        3.1.6 Heading 6
+*/
+
+/* 3.1 Headings */
+
+/* 3.1.1 Heading 1 */
+.WCEU2023-HeadingOne {
+	font-family: $Philosopher;
+	font-weight: $Bold;
+	font-size: $H1-FontSize;
+	color: $WCEU2023-Blue-100;
+	display: "block";
+}
+
+/* 3.1.2 Heading 2 */
+.WCEU2023-HeadingTwo {
+	font-family: $Philosopher;
+	font-weight: $Bold;
+	font-size: $H2-FontSize;
+	color: $WCEU2023-Red-100;
+	display: "block";
+}
+
+/* 3.1.3 Heading 3 */
+.WCEU2023-HeadingThree {
+	font-family: $Philosopher;
+	font-weight: $SemiBold;
+	font-size: $H3-FontSize;
+	color: $WCEU2023-AlmostBlack-100;
+	letter-spacing: "2%";
+	line-height: "2.81rem";
+	display: "block";
+}
+
+/* 3.1.4 Heading 4 */
+.WCEU2023-HeadingFour {
+	font-family: $Mulish;
+	font-weight: $Medium;
+	font-size: $H4-FontSize;
+	color: $WCEU2023-AlmostBlack-100;
+	display: "block";
+}
+
+/* 3.1.5 Heading 5 */
+.WCEU2023-HeadingFive {
+	font-family: $Mulish;
+	font-weight: $Medium;
+	font-size: $H5-FontSize;
+	color: $WCEU2023-AlmostBlack-100;
+	display: "block";
+}
+
+/* 3.1.6 Heading 6 */
+.WCEU2023-HeadingSix {
+	font-family: $Mulish;
+	font-weight: $SemiBold;
+	font-size: $H6-FontSize;
+	color: $WCEU2023-AlmostBlack-100;
+	line-height: "1.5rem";
+	display: "block";
+}
+
+/* 3.2 Paragraph - Body Block Text */
+.WCEU2023-BlockText {
+	font-family: $Mulish;
+	font-weight: $SemiBold;
+	font-size: $Body-FontSize;
+	color: $WCEU2023-AlmostBlack-100;
+	line-height: "2.5rem";
+	display: "block";
+	margin-bottom: "1.875rem";
+}

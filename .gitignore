@@ -1,1 +1,8 @@
-.prettierrc
+# Global.
+/**/.DS_STORE
+/**/node_modules
+
+# WP-Scripts specific.
+# We only need the CSS files, so we can ignore the rest.
+build/wceu2023.js
+build/wceu2023.asset.*
