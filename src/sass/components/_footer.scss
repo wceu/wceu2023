@@ -5,6 +5,6 @@ footer {
 	a,
 	p,
 	h4 {
-		color: #fff;
+		color: #fff!important; // !importart is needed because there's a glocal rule in Additional CSS panel. Please remove it when the global rule is removed.
 	}
 }
