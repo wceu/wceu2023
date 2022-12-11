@@ -1,0 +1,143 @@
+/* WCEU 2023 CUSTOM REMOTE CSS
+ * This file is used to add custom CSS remotely to the WCEU 2023 site.
+ * Team members: Steve Tsiogkas, [@]steve_tsiogkas, Fotis Pastrakis [@]fotisp4, Ioanna Mitsani [@]IoannaMitsani
+ *
+ * TABLE OF CONTENTS -- PLEASE KEEP UPDATED
+ * 1. Global: Global CSS rules will be applied to all pages like Colors, Typography etc.
+ *  1.1 Fonts
+ *      1.1.1 Font Families
+ *      1.1.2 Font Weights
+ *      1.1.3 Font Sizes
+ *  1.2 Colors
+ *      1.2.1 Basics: Neutral colors & main body text colors
+ *      1.2.2 Reds: Red shades
+ *      1.2.3 Blues: Blue shades
+ *      1.2.4 Turquoise: Turquoise shades
+ *      1.2.5. Yellow: Yellow shades
+ * 2. Default rules
+ *    *** To be added ***
+ * 3. Typography
+ *  3.1 Headings
+ *      3.1.1 Heading 1
+ *      3.1.2 Heading 2
+ *      3.1.3 Heading 3
+ *      3.1.4 Heading 4
+ *      3.1.5 Heading 5
+ *      3.1.6 Heading 6
+ *  3.2 Paragraph - Body Block Text
+ *  3.3 Lists *** To be added ***
+ *  3.4 Links *** To be added ***
+ *  3.5 Buttons *** To be added ***
+ * 4. Header: Styles for the header.
+ *
+ * NAMING & CONVENTIONS USED:
+ * 1. Colors: Color variables are named as in Branding Guidelines - Figma Color Styles. The convention used is: --WCEU2023-ColorName-ColorShade // ColorShade is optional according to the color.
+ * 2. Typography: Typography variables are named as in Branding Guidelines - Figma Typography Styles. The convention used is: --WCEU2023-TypographyName
+ * 3. Font sizes are in rems or ems -- rem base 16px.
+ * 4. Font weights are in numbers.
+ * 5. Spacing is in rems or ems -- rem base 16px.
+ *
+ *
+ * IMPORTANT NOTES:
+ * a. FIGMA MESURE UNITS CHEAT SHEET:
+ *  FONT SIZING is in pt
+ *  LINE HEIGHT is in px or %
+ *  PARAGRAPH SPACING is in px or %
+ *
+ * */
+*
+/* 1. Global */
+* * *
+
+/* 1.1 Fonts */
+/* 1.1.1 Font Families */
+/* 1.1.2 Font weights */
+/* 1.1.3  Font sizes */
+/* 1.2 Colors */
+/* 1.2.1 Basics: neutrals & body text colors */
+/* 1.2.2 Reds */
+/* 1.2.3 Blues */
+/* 1.2.4 Turquoises*/
+/* 1.2.5 Yellows */
+/* 3. Typography */
+/* 3.1 Headings */
+/* 3.1.1 Heading 1 */
+.WCEU2023-HeadingOne {
+	font-family: "Philosopher", sans-serif;
+	font-weight: 700;
+	font-size: 6.67rem;
+	color: #1e5fb4;
+	display: block;
+}
+
+/* 3.1.2 Heading 2 */
+.WCEU2023-HeadingTwo {
+	font-family: "Philosopher", sans-serif;
+	font-weight: 700;
+	font-size: 4.58rem;
+	color: #cd3c5a;
+	display: block;
+}
+
+/* 3.1.3 Heading 3 */
+.WCEU2023-HeadingThree {
+	font-family: "Philosopher", sans-serif;
+	font-weight: 600;
+	font-size: 3rem;
+	color: #14191e;
+	letter-spacing: 2%;
+	line-height: 2.81rem;
+	display: block;
+}
+
+/* 3.1.4 Heading 4 */
+.WCEU2023-HeadingFour {
+	font-family: "Mulish", sans-serif;
+	font-weight: 500;
+	font-size: 2.08rem;
+	color: #14191e;
+	display: block;
+}
+
+/* 3.1.5 Heading 5 */
+.WCEU2023-HeadingFive {
+	font-family: "Mulish", sans-serif;
+	font-weight: 500;
+	font-size: 1.67rem;
+	color: #14191e;
+	display: block;
+}
+
+/* 3.1.6 Heading 6 */
+.WCEU2023-HeadingSix {
+	font-family: "Mulish", sans-serif;
+	font-weight: 600;
+	font-size: 1.33rem;
+	color: #14191e;
+	line-height: 1.5rem;
+	display: block;
+}
+
+/* 3.2 Paragraph - Body Block Text */
+.WCEU2023-BlockText {
+	font-family: "Mulish", sans-serif;
+	font-weight: 600;
+	font-size: 2.17rem;
+	color: #14191e;
+	line-height: 2.5rem;
+	display: block;
+	margin-bottom: 1.875rem;
+}
+
+/* 3. Header */
+.wp-block-navigation-item__label {
+	font-family: "Mulish", sans-serif;
+	font-size: 1.5rem;
+	color: #0a3773;
+}
+
+body {
+	--wp--style--global--content-size: 1680px !important;
+}
+
+/*# sourceMappingURL=output.css.map */
