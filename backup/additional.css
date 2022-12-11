@@ -1,0 +1,138 @@
+/* That's just a backup of the "inlined" CSS. */
+
+.vertizio-correction1 {
+	width: unset !important;
+}
+
+
+.wp-site-blocks .vertizio-correction2 {
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
+
+.vertizio-correction3 img {
+	width: auto !important;
+	max-width: 360px !important;
+}
+
+/* Fotis Fix for mobile - Not permanent */
+@media (min-width: 400px) {
+	.wordcamp-post-list.has-layout-grid {
+		grid-column-gap: 1em;
+		grid-row-gap: 1em;
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		min-height: 0;
+		min-width: 0;
+		padding-left: 0;
+	}
+}
+
+@media (min-width: 600px) {
+	.wordcamp-post-list.has-layout-grid.has-grid-columns-3 {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media (min-width: 1200px) {
+	.wordcamp-post-list.has-layout-grid.has-grid-columns-3 {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+/* Lena's Experiments Start */
+
+h1 {
+
+	color: #CD3C5A;
+	font-family: 'Philosopher', sans-serif;
+	font-style: bold;
+}
+
+.WCEU2023-BlockText {
+
+	color: #0A3773;
+	font-family: 'Mulish', sans-serif;
+
+}
+
+h2 {
+
+	color: #CD3C5A;
+	font-family: 'Philosopher', sans-serif;
+	font-size: 3rem;
+	font-style: bold;
+
+}
+
+p {
+
+	color: #0A3773;
+	font-family: 'Mulish', sans-serif;
+	font-style: medium;
+	font-size: 1.2rem;
+
+}
+
+
+.has-background {
+
+	background-color: #EBEBE6;
+}
+
+h3 {
+
+	color: #CD3C5A;
+	font-family: 'Philosopher', sans-serif;
+	font-size: 2.2rem;
+	font-style: bold;
+
+}
+
+ul {
+
+	color: #0A3773;
+	font-family: 'Mulish', sans-serif;
+	font-style: bold;
+	font-size: 1.2rem;
+	line-height: 2;
+}
+
+.wp-block-button .wp-block-button__link {
+	background-color: #CD3C5A;
+	border-radius: 50px;
+	padding-left: 7rem;
+	padding-right: 7rem;
+
+}
+
+ol.has-background {
+
+	padding: 70px;
+	margin: 25px;
+}
+
+
+
+ol.has-background a {
+
+	color: #0A3773;
+	font-family: 'Mulish', sans-serif;
+	font-style: bold;
+	font-size: 1.2rem;
+	line-height: 2.5;
+
+}
+
+@media only screen and (max-width: 400px) {
+
+	.wp-block-button .wp-block-button__link {
+
+
+		padding-left: 3rem;
+
+
+	}
+}
+
+/* Lena's Experiments End */
