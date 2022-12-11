@@ -2,14 +2,15 @@
 	========================================================================== */
 
 footer {
-	background-image: url('//europe.wordcamp.org/2023/files/2022/12/footer-background-symbol.png');
+	background-image: url("//europe.wordcamp.org/2023/files/2022/12/footer-background-symbol.png");
 	background-size: 800px;
 	background-repeat: no-repeat;
 	background-position: top 200px right;
 	a,
 	p,
 	h4 {
-		color: #fff!important; // !importart is needed because there's a glocal rule in Additional CSS panel. Please remove it when the global rule is removed.
+		color: #fff !important; // !importart is needed because there's a glocal rule in Additional CSS panel. Please remove it when the global rule is removed.
+		text-decoration: none;
 	}
 	.wp-block-navigation .wp-block-navigation-item__label,
 	.wp-block-navigation__container span {
