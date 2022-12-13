@@ -13,11 +13,32 @@ header {
 
 	.wp-block-navigation__responsive-container.is-menu-open {
 		background-color: $WCEU2023-Turquoise-100 !important;
+	}
 
-		@include media-max(sm) {
-			--navigation-layout-justification-setting: center !important;
+	#modal-2-content {
+		ul {
+
+			@include media-max(sm) {
+				margin: 0 auto;
+				text-align: center;
+				align-content: center;
+				align-items: center;
+			}
+
 		}
 
+		.wp-block-navigation-submenu {
+			a {
+
+				@include media-max(sm) {
+					margin: 0 auto;
+					text-align: center;
+					align-content: center;
+					align-items: center;
+				}
+			}
+
+		}
 	}
 
 }
