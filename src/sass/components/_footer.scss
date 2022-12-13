@@ -38,7 +38,7 @@ footer {
 	.wp-block-navigation__container {
 
 		@include media-max(sm) {
-			justify-content: flex-start !important; // trying to keep my sanity
+			justify-content: flex-start;
 		}
 
 		span {
