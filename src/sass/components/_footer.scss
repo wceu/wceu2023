@@ -30,17 +30,12 @@ footer {
 	}
 
 	.wp-block-navigation__container {
+		@include media-max(sm) {
+			justify-content: flex-start !important; // trying to keep my sanity
+		}
 		span {
 			font-size: "1.2rem";
 			color: #fff;
-		}
-
-	}
-
-	.wp-block-navigation.items-justified-right {
-
-		@include media-max(sm) {
-			justify-content: flex-start;
 		}
 
 	}
