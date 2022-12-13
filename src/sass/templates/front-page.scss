@@ -2,6 +2,8 @@
 
 	/* hero section */
 	.home-hero {
+		margin-top: -1.5rem;
+
 		.wp-block-image::after {
 			content: "";
 			display: block;
@@ -15,5 +17,6 @@
 			bottom: -65px;
 			right: 0;
 		}
+
 	}
 }
