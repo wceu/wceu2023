@@ -2,10 +2,19 @@
 	========================================================================== */
 
 footer {
+	.wp-container-32 {
 	background-image: url(//europe.wordcamp.org/2023/files/2022/12/footer-background-symbol.png);
 	background-size: 800px;
 	background-repeat: no-repeat;
 	background-position: top 250px right -50px;
+
+		@include media-max(sm) {
+
+			background-position: bottom -100px right -100px;
+			background-size: 600px;
+
+		}
+	}
 
 	a,
 	p,
@@ -18,6 +27,17 @@ footer {
 	.wp-block-navigation__container span {
 		font-size: "1.2rem";
 		color: #fff;
+	}
+
+	@include media-max(sm) {
+		.wp-container-26 {
+			padding-bottom: 0;
+		}
+
+		.wp-block-navigation__container {
+			justify-content: flex-start;
+
+		}
 	}
 
 }
