@@ -3,10 +3,10 @@
 
 footer {
 	.wp-container-32 {
-	background-image: url(//europe.wordcamp.org/2023/files/2022/12/footer-background-symbol.png);
-	background-size: 800px;
-	background-repeat: no-repeat;
-	background-position: top 250px right -50px;
+		background-image: url(//europe.wordcamp.org/2023/files/2022/12/footer-background-symbol.png);
+		background-size: 800px;
+		background-repeat: no-repeat;
+		background-position: top 250px right -50px;
 
 		@include media-max(sm) {
 
@@ -31,13 +31,18 @@ footer {
 
 	.wp-block-navigation__container {
 		span {
-		font-size: "1.2rem";
-		color: #fff;
+			font-size: "1.2rem";
+			color: #fff;
 		}
+
+	}
+
+	.wp-block-navigation.items-justified-right {
 
 		@include media-max(sm) {
 			justify-content: flex-start;
 		}
+
 	}
 
 }
