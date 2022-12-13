@@ -12,6 +12,7 @@ footer {
 
 			background-position: bottom -100px right -100px;
 			background-size: 600px;
+			padding-bottom: 0;
 
 		}
 	}
@@ -23,20 +24,19 @@ footer {
 		text-decoration: none;
 	}
 
-	.wp-block-navigation .wp-block-navigation-item__label,
-	.wp-block-navigation__container span {
+	.wp-block-navigation .wp-block-navigation-item__label {
 		font-size: "1.2rem";
 		color: #fff;
 	}
 
-	@include media-max(sm) {
-		.wp-container-26 {
-			padding-bottom: 0;
+	.wp-block-navigation__container {
+		span {
+		font-size: "1.2rem";
+		color: #fff;
 		}
 
-		.wp-block-navigation__container {
+		@include media-max(sm) {
 			justify-content: flex-start;
-
 		}
 	}
 
