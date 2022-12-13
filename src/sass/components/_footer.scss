@@ -18,7 +18,7 @@ footer {
 	}
 
 	.wp-block-button__link {
-		background: white;
+		background: #fff;
 		color: #0a3773;
 	}
 
@@ -36,9 +36,11 @@ footer {
 	}
 
 	.wp-block-navigation__container {
+
 		@include media-max(sm) {
 			justify-content: flex-start !important; // trying to keep my sanity
 		}
+
 		span {
 			font-size: "1.2rem";
 			color: #fff;
