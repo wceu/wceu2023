@@ -13,7 +13,7 @@
     "format": "wp-scripts format",
     "lint:css": "wp-scripts lint-style",
     "packages-update": "wp-scripts packages-update",
-    "start": "wp-scripts start"
+    "start": "wp-scripts start ./src/wceu2023.js"
   },
   "main": "index.js"
 }
