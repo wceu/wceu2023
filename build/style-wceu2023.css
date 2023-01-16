@@ -214,8 +214,13 @@ h6,
 header .wp-block-navigation ul,
 header .wp-block-navigation .wp-block-navigation-item__label {
   font-family: "Mulish", sans-serif;
-  font-size: "1.5rem";
   color: #0a3773;
+}
+@media (max-width: 992px) {
+  header .wp-block-navigation ul,
+  header .wp-block-navigation .wp-block-navigation-item__label {
+    font-size: "1.5rem";
+  }
 }
 header .wp-block-navigation__responsive-container.is-menu-open {
   background-color: #1ebeaf !important;
