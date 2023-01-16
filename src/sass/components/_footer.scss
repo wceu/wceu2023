@@ -23,10 +23,10 @@ footer {
 	}
 
 
-	a,
+	a:not(.wp-block-social-link-anchor),
 	p,
 	h4 {
-		color: #fff !important; // !importart is needed because there's a glocal rule in Additional CSS panel. Please remove it when the global rule is removed.
+		color: #fff;
 		text-decoration: none;
 	}
 
@@ -46,6 +46,13 @@ footer {
 			color: #fff;
 		}
 
+	}
+
+	//social-bar
+	.social-bar {
+		.wp-block-social-links {
+		    justify-content: space-evenly;			
+		}
 	}
 
 }
