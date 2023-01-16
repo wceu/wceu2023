@@ -11,6 +11,9 @@
 	background-color: #FBD363;
 	background-image: url('//europe.wordcamp.org/2023/files/2023/01/latest_news_section_symbol.png');
 	background-repeat: no-repeat;
+	@include media-max(md) {
+		    background-position: 'bottom right';
+	}
 	padding-top: 60px;
     padding-bottom: 60px;
 	ul {
