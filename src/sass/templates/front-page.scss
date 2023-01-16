@@ -60,6 +60,7 @@
 	.wc-comm-section {
 		background-repeat: no-repeat !important;
 		background-position: right !important;
+		align-items: flex-end!important;
 		@include media-min(md) {
 			aspect-ratio: 1/1;
 			height: 250px;
