@@ -1,5 +1,4 @@
 .home {
-
 	/* hero section */
 	.home-hero {
 		position: relative;
@@ -23,7 +22,8 @@
 				display: none;
 			}
 		}
-		h1, p {
+		h1,
+		p {
 			color: $WCEU2023-DarkBlue-100;
 			font-weight: $ExtraBold;
 		}
@@ -47,48 +47,46 @@
 			font-weight: $Bold;
 		}
 	}
-
 }
 
 .wordcamp-community-home {
+	.wc-comm {
+		display: flex;
+		justify-content: space-between;
+	}
 
 	.wc-comm-section {
-	a {
-		color: #fff !important;
+		a {
+			color: #fff !important;
+		}
+		@include media-min(md) {
+			aspect-ratio: 1/1;
+		}
 	}
-    width: 100%;
-	background-repeat: no-repeat;
-    background-position: right;
-	@include media-min(md) {
-    	aspect-ratio: 1/1;
+
+	.wc-comm-organizers {
+		background: url("//europe.wordcamp.org/2023/files/2022/12/Organizers-leaf.png");
+		background-repeat: no-repeat;
+		background-position: right;
 	}
-	
+	.wc-comm-volunteers {
+		background: url("//europe.wordcamp.org/2023/files/2022/12/Volunteers-symbol.png");
+		background-repeat: no-repeat;
+		background-position: right;
+	}
+	.wc-comm-speakers {
+		background: url("//europe.wordcamp.org/2023/files/2022/12/speakers-symbol.png");
+		background-repeat: no-repeat;
+		background-position: right;
+	}
+	.wc-comm-attendees {
+		background: url("//europe.wordcamp.org/2023/files/2022/12/attendees-symbol.png");
+		background-repeat: no-repeat;
+		background-position: right;
+	}
+	.wc-comm-sponsors {
+		background: url("//europe.wordcamp.org/2023/files/2022/12/sponsors-symbol.png");
+		background-repeat: no-repeat;
+		background-position: right;
+	}
 }
-
-.wc-comm {
-    justify-content: space-between;
-}
-
-.community-rect {
-    display: flex;
-    align-items: flex-end;
-}
-.wc-comm-organizers {
-    background: url('//europe.wordcamp.org/2023/files/2022/12/Organizers-leaf.png');
-}
-.wc-comm-volunteers {
-    background: url('//europe.wordcamp.org/2023/files/2022/12/Volunteers-symbol.png');
-}
-.wc-comm-speakers {
-    background: url('//europe.wordcamp.org/2023/files/2022/12/speakers-symbol.png');
-}
-.wc-comm-attendees {
-    background: url('//europe.wordcamp.org/2023/files/2022/12/attendees-symbol.png');
-}
-.wc-comm-sponsors {
-    background: url('//europe.wordcamp.org/2023/files/2022/12/sponsors-symbol.png');
-
-}
-
-}
-
