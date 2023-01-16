@@ -51,7 +51,7 @@
 
 .wordcamp-community-home {
 	margin-bottom: -25px;
-	
+
 	.wc-comm {
 		display: flex;
 		justify-content: space-between;
@@ -63,6 +63,9 @@
 		}
 		@include media-min(md) {
 			aspect-ratio: 1/1;
+		}
+		@include media-max(md){
+			    width: 100%;
 		}
 	}
 
