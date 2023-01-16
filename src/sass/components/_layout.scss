@@ -13,5 +13,11 @@
 		overflow: hidden;
 		display: inline-block;
 	}
+	.wp-block-post-title {
+		font-family: $Philosopher !important;
+		font-weight: $Bold !important;
+		color: $WCEU2023-Red-100;
+		font-size: 2rem;
+	}
 
 }
