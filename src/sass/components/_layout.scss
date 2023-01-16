@@ -7,6 +7,11 @@
 	font-weight: $Bold !important;
 }
 
+.disabled {
+	opacity: 0.6;
+	pointer-events: none;
+}
+
 .latest-news {
 	background-color: #FBD363;
 	background-image: url('//europe.wordcamp.org/2023/files/2023/01/latest_news_section_symbol.png');
