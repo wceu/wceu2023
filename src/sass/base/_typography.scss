@@ -13,16 +13,16 @@
 /* 3.1.1 Heading 1 */
 h1,
 .WCEU2023-HeadingOne {
-	font-family: $Philosopher;
-	font-weight: $Bold;
-	color: $WCEU2023-Blue-100;
+	font-family: $Philosopher  !important;;
+	font-weight: $Bold  !important;
+	color: $WCEU2023-Red-100;
 }
 
 /* 3.1.2 Heading 2 */
 h2,
 .WCEU2023-HeadingTwo {
-	font-family: $Philosopher;
-	font-weight: $Bold;
+	font-family: $Philosopher !important;
+	font-weight: $Bold !important;
 	color: $WCEU2023-Red-100;
 }
 
