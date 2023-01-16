@@ -63,6 +63,7 @@
 		}
 		@include media-min(md) {
 			aspect-ratio: 1/1;
+			height: 250px;
 		}
 		@include media-max(md){
 			    width: 100%;
