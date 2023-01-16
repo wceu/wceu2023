@@ -16,7 +16,7 @@ h1,
 	font-family: $Philosopher;
 	font-weight: $Bold;
 	@include media-min(lg) {
-		font-size: $H1-FontSize;
+		// font-size: $H1-FontSize;
 	}
 	color: $WCEU2023-Blue-100;
 }
@@ -27,7 +27,7 @@ h2,
 	font-family: $Philosopher;
 	font-weight: $Bold;
 	@include media-min(lg) {
-		font-size: $H2-FontSize;
+		// font-size: $H2-FontSize;
 	}
 	color: $WCEU2023-Red-100;
 }
@@ -38,8 +38,7 @@ h3,
 	font-family: $Philosopher;
 	font-weight: $SemiBold;
 	@include media-min(lg) {
-		font-size: $H3-FontSize;
-		letter-spacing: "2%";
+		// font-size: $H3-FontSize;
 		line-height: "2.81rem";
 	}
 	color: $WCEU2023-AlmostBlack-100;
@@ -51,7 +50,7 @@ h4,
 	font-family: $Mulish;
 	font-weight: $Medium;
 	@include media-min(lg) {
-		font-size: $H4-FontSize;
+		// font-size: $H4-FontSize;
 	}
 	color: $WCEU2023-AlmostBlack-100;
 }
@@ -62,7 +61,7 @@ h5,
 	font-family: $Mulish;
 	font-weight: $Medium;
 	@include media-min(lg) {
-		font-size: $H5-FontSize;
+		// font-size: $H5-FontSize;
 	}
 	color: $WCEU2023-AlmostBlack-100;
 }
@@ -73,7 +72,7 @@ h6,
 	font-family: $Mulish;
 	font-weight: $SemiBold;
 	@include media-min(lg) {
-		font-size: $H6-FontSize;
+		// font-size: $H6-FontSize;
 		line-height: "1.5rem";
 	}
 	color: $WCEU2023-AlmostBlack-100;
@@ -84,9 +83,15 @@ h6,
 	font-family: $Mulish;
 	font-weight: $SemiBold;
 	@include media-min(lg) {
-		font-size: $Body-FontSize;
+		// font-size: $Body-FontSize;
 		line-height: "2.5rem";
 		margin-bottom: "1.875rem";
 	}
 	color: $WCEU2023-AlmostBlack-100;
+}
+
+
+p {
+	font-family: $Mulish;
+	font-weight: $SemiBold;
 }
