@@ -17,6 +17,12 @@ footer {
 		}
 	}
 
+	.is-layout-flex {
+		@include media-max(md) {
+ 	   		gap: 3.5rem;
+		}
+	}
+
 	.wp-block-button__link {
 		background: #fff;
 		color: #0a3773;
