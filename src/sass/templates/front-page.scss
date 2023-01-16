@@ -50,6 +50,8 @@
 }
 
 .wordcamp-community-home {
+	margin-bottom: -25px;
+	
 	.wc-comm {
 		display: flex;
 		justify-content: space-between;
@@ -68,25 +70,30 @@
 		background: url("//europe.wordcamp.org/2023/files/2022/12/Organizers-leaf.png");
 		background-repeat: no-repeat;
 		background-position: right;
+		align-items: flex-end!important;
 	}
 	.wc-comm-volunteers {
 		background: url("//europe.wordcamp.org/2023/files/2022/12/Volunteers-symbol.png");
 		background-repeat: no-repeat;
 		background-position: right;
+		align-items: flex-end!important;
 	}
 	.wc-comm-speakers {
 		background: url("//europe.wordcamp.org/2023/files/2022/12/speakers-symbol.png");
 		background-repeat: no-repeat;
 		background-position: right;
+		align-items: flex-end!important;
 	}
 	.wc-comm-attendees {
 		background: url("//europe.wordcamp.org/2023/files/2022/12/attendees-symbol.png");
 		background-repeat: no-repeat;
 		background-position: right;
+		align-items: flex-end!important;
 	}
 	.wc-comm-sponsors {
 		background: url("//europe.wordcamp.org/2023/files/2022/12/sponsors-symbol.png");
 		background-repeat: no-repeat;
 		background-position: right;
+		align-items: flex-end!important;
 	}
 }
