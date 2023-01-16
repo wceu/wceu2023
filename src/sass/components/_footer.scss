@@ -9,17 +9,16 @@ footer {
 		background-position: top 250px right -50px;
 
 		@include media-max(sm) {
-
 			background-position: bottom -100px right -100px;
 			background-size: 600px;
 			padding-bottom: 0;
-
 		}
 	}
 
 	.is-layout-flex {
+
 		@include media-max(md) {
- 	   		gap: 3.5rem;
+			gap: 3.5rem;
 		}
 	}
 
@@ -27,7 +26,6 @@ footer {
 		background: #fff;
 		color: #0a3773;
 	}
-
 
 	a:not(.wp-block-social-link-anchor),
 	p,
@@ -51,17 +49,16 @@ footer {
 			font-size: "1.2rem";
 			color: #fff;
 		}
-
 	}
 
 	//social-bar
 	.social-bar {
-		background: url('//europe.wordcamp.org/2023/files/2022/12/Social-Media-Banner-bg.png');
+		background: url(//europe.wordcamp.org/2023/files/2022/12/Social-Media-Banner-bg.png);
 		background-size: cover;
 		margin-bottom: -10px;
+
 		.wp-block-social-links {
-		    justify-content: space-evenly;			
+			justify-content: space-evenly;
 		}
 	}
-
 }

@@ -1,6 +1,6 @@
 .alignwide {
 	max-width: 1680px !important;
-	margin: 0 auto !important;;
+	margin: 0 auto !important;
 }
 
 .bold {
@@ -13,27 +13,32 @@
 }
 
 .m-top-0 {
-	margin-top: 0!important;
+	margin-top: 0 !important;
 }
 
 .latest-news {
 	overflow: hidden;
-	background-color: #FBD363;
-	background-image: url('//europe.wordcamp.org/2023/files/2023/01/latest_news_section_symbol.png');
+	background-color: #fbd363;
+	background-image: url(//europe.wordcamp.org/2023/files/2023/01/latest_news_section_symbol.png);
 	background-repeat: no-repeat;
-	@include media-max(md) {
-		    background-position: bottom right;
-	}
 	padding-top: 60px;
-    padding-bottom: 60px;
-	ul {
-    	max-width: 1680px!important;
+	padding-bottom: 60px;
+
+	@include media-max(md) {
+		background-position: bottom right;
 	}
+
+
+	ul {
+		max-width: 1680px !important;
+	}
+
 	.wp-block-post-excerpt__excerpt {
 		max-height: 150px;
 		overflow: hidden;
 		display: inline-block;
 	}
+
 	.wp-block-post-title {
 		font-family: $Philosopher !important;
 		font-weight: $Bold !important;

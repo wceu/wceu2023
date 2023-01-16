@@ -6,10 +6,11 @@ header {
 		ul,
 		.wp-block-navigation-item__label {
 			font-family: $Mulish;
-			@include media-max(md){
+			color: $WCEU2023-DarkBlue-100;
+
+			@include media-max(md) {
 				font-size: "1.5rem";
 			}
-			color: $WCEU2023-DarkBlue-100;
 		}
 	}
 
