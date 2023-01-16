@@ -83,4 +83,9 @@ WCEU 2023 CUSTOM REMOTE CSS
 --------------------------------------------------------------*/
 @import "templates/front-page";
 
-/* 3. Header */
+
+/*--------------------------------------------------------------
+# Template Parts
+--------------------------------------------------------------*/
+@import "template-parts/latest-news";
+@import "template-parts/wc-community";

@@ -1,0 +1,31 @@
+.latest-news {
+	overflow: hidden;
+	background-color: #fbd363;
+	background-image: url(//europe.wordcamp.org/2023/files/2023/01/latest_news_section_symbol.png);
+	background-repeat: no-repeat;
+	padding-top: 60px;
+	padding-bottom: 60px;
+
+	@include media-max(md) {
+		background-position: bottom right;
+	}
+
+
+	ul {
+		max-width: 1680px !important;
+	}
+
+	.wp-block-post-excerpt__excerpt {
+		max-height: 150px;
+		overflow: hidden;
+		display: inline-block;
+	}
+
+	.wp-block-post-title {
+		font-family: $Philosopher !important;
+		font-weight: $Bold !important;
+		color: $WCEU2023-Red-100;
+		font-size: 2rem;
+	}
+
+}
