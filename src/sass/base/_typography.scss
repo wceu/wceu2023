@@ -15,9 +15,6 @@ h1,
 .WCEU2023-HeadingOne {
 	font-family: $Philosopher;
 	font-weight: $Bold;
-	@include media-min(lg) {
-		// font-size: $H1-FontSize;
-	}
 	color: $WCEU2023-Blue-100;
 }
 
@@ -26,9 +23,6 @@ h2,
 .WCEU2023-HeadingTwo {
 	font-family: $Philosopher;
 	font-weight: $Bold;
-	@include media-min(lg) {
-		// font-size: $H2-FontSize;
-	}
 	color: $WCEU2023-Red-100;
 }
 
@@ -37,10 +31,6 @@ h3,
 .WCEU2023-HeadingThree {
 	font-family: $Philosopher;
 	font-weight: $SemiBold;
-	@include media-min(lg) {
-		// font-size: $H3-FontSize;
-		line-height: "2.81rem";
-	}
 	color: $WCEU2023-AlmostBlack-100;
 }
 
@@ -49,9 +39,6 @@ h4,
 .WCEU2023-HeadingFour {
 	font-family: $Mulish;
 	font-weight: $Medium;
-	@include media-min(lg) {
-		// font-size: $H4-FontSize;
-	}
 	color: $WCEU2023-AlmostBlack-100;
 }
 
@@ -60,9 +47,6 @@ h5,
 .WCEU2023-HeadingFive {
 	font-family: $Mulish;
 	font-weight: $Medium;
-	@include media-min(lg) {
-		// font-size: $H5-FontSize;
-	}
 	color: $WCEU2023-AlmostBlack-100;
 }
 
@@ -71,10 +55,6 @@ h6,
 .WCEU2023-HeadingSix {
 	font-family: $Mulish;
 	font-weight: $SemiBold;
-	@include media-min(lg) {
-		// font-size: $H6-FontSize;
-		line-height: "1.5rem";
-	}
 	color: $WCEU2023-AlmostBlack-100;
 }
 
@@ -82,11 +62,6 @@ h6,
 .WCEU2023-BlockText {
 	font-family: $Mulish;
 	font-weight: $SemiBold;
-	@include media-min(lg) {
-		// font-size: $Body-FontSize;
-		line-height: "2.5rem";
-		margin-bottom: "1.875rem";
-	}
 	color: $WCEU2023-AlmostBlack-100;
 }
 
