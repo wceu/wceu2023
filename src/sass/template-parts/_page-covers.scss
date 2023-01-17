@@ -19,7 +19,9 @@
 
 }
 
-// call for sponsors
-// .page-id-2146 .page-cover {
-// 	background-image: url(//europe.wordcamp.org/2023/files/2023/01/call-for-cover-symbol.png);
-// }
+// calls template header bg override
+.page-template-wp-custom-template-calls-template {
+	.header .wp-block-group.has-background {
+		background-color: $WCEU2023-Blue-60;
+	}
+}
