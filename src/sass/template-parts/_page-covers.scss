@@ -20,8 +20,10 @@
 }
 
 // calls template header bg override
-.page-template-wp-custom-template-calls-template {
-	.header .wp-block-group.has-background {
-		background-color: $WCEU2023-Blue-60;
+.page-template-wp-custom-template-calls-template  {
+	& header {
+		.wp-block-group.has-background {
+			background-color: $WCEU2023-Blue-60 !important;
+		}
 	}
 }
