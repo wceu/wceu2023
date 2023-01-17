@@ -3,6 +3,7 @@
 	background-position: top right;
 	background-repeat: no-repeat;
 	background-size: contain;
+	background-position: 80% 50px;
 	&.blue-cover {
 		background-color: $WCEU2023-Blue-60;
 		@include media-min(md) {
