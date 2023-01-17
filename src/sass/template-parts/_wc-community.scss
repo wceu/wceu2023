@@ -38,6 +38,10 @@
 	.wc-comm-speakers {
 		background: url(//europe.wordcamp.org/2023/files/2023/01/WCEU2023-Symbols15.png);
 		background-position: 180px !important;
+
+		@include media-max(md) {
+			background-position: 110% !important;
+		}
 	}
 
 	.wc-comm-attendees {
@@ -47,5 +51,9 @@
 	.wc-comm-sponsors {
 		background: url(//europe.wordcamp.org/2023/files/2023/01/WCEU2023-Symbols04.png);
 		background-position: 180px !important;
+
+		@include media-max(md) {
+			background-position: 110% !important;
+		}
 	}
 }
