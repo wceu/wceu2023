@@ -1,0 +1,25 @@
+.page-cover {
+	margin-top: 0;
+	background-position: top right;
+	background-repeat: no-repeat;
+	background-size: contain;
+	&.blue-cover {
+		background-color: $WCEU2023-Blue-60;
+		@include media-min(md) {
+			background-image: url(//europe.wordcamp.org/2023/files/2023/01/call-for-cover-symbol.png);
+		}
+		.wp-block-post-title {
+			color: $WCEU2023-DarkBlue-100;
+		}
+	}
+
+	&.pink-cover {
+		background-color: $WCEU2023-Red-60;
+	}
+
+}
+
+// call for sponsors
+// .page-id-2146 .page-cover {
+// 	background-image: url(//europe.wordcamp.org/2023/files/2023/01/call-for-cover-symbol.png);
+// }
