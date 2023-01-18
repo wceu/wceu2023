@@ -1,7 +1,7 @@
 .entry-content {
 	#tix {
 		table.tix_tickets_table {
-			background-color: $WCEU2023-Yellow-40;
+			background-color: $WCEU2023-Yellow-20;
 			border-collapse: collapse;
 			color: $WCEU2023-DarkBlue-100;
 			font-family: $Mulish;
@@ -20,7 +20,12 @@
 					> th,
 					> td {
 						background: $WCEU2023-Yellow-20;
+						box-sizing: border-box;
 						padding: 1.5rem 2rem;
+
+						> * {
+							box-sizing: border-box;
+						}
 					}
 				}
 			}
@@ -83,6 +88,8 @@
 			&.tix-order-summary {
 				thead {
 					tr {
+						background-color: $WCEU2023-Yellow-40;
+
 						th {
 							&.tix-column-description {
 								text-align: left;
@@ -121,6 +128,67 @@
 
 			// Attendee Form.
 			&.tix-attendee-form {
+				tbody {
+					tr {
+						&:first-child {
+							> th {
+								border-bottom: 2px solid $WCEU2023-DarkBlue-100;
+								background-color: $WCEU2023-Yellow-40;
+							}
+						}
+
+						@include media-max(sm) {
+							&[class*="tix-row"] {
+								display: flex;
+								flex-direction: column;
+								flex-wrap: wrap;
+								gap: 0.75rem;
+								padding: 1.5rem 0;
+
+								> td {
+									padding: 0 2rem;
+									width: 100%;
+								}
+							}
+						}
+					}
+				}
+
+				// Inputs
+				input {
+					background-color: $WCEU2023-TotalWhite-100;
+					border: 2px solid $WCEU2023-Yellow-100;
+					font-size: var(--wp--preset--font-size--medium);
+					line-height: 2;
+					padding: 1rem;
+
+					&[type="text"],
+					&[type="phone"],
+					&[type="url"],
+					&[type="email"] {
+						width: 100%;
+					}
+				}
+
+				textarea {
+					background-color: $WCEU2023-TotalWhite-100;
+					border: 2px solid $WCEU2023-Yellow-100;
+					font-size: var(--wp--preset--font-size--medium);
+					line-height: 2;
+					padding: 1rem;
+					width: 100%;
+				}
+
+				select {
+					background-color: $WCEU2023-TotalWhite-100;
+					border: 2px solid $WCEU2023-Yellow-100;
+					font-size: var(--wp--preset--font-size--medium);
+					line-height: 2;
+					padding: 1rem;
+					width: 100%;
+				}
+
+				// Spacing between multiple attendee forms.
 				~ .tix-attendee-form {
 					margin-top: 3rem;
 				}
