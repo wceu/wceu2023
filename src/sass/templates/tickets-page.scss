@@ -61,24 +61,25 @@
 					}
 				}
 			}
+		}
 
-			input[type="submit"] {
-				background-color: $WCEU2023-Red-100;
-				border: none;
-				border-radius: 2rem;
-				color: $WCEU2023-TotalWhite-100;
-				font-family: $Mulish;
-				font-size: 1.2rem;
-				font-weight: $Bold;
-				display: block;
-				line-height: 1.5;
-				padding: 1rem;
-				transition: background-color 0.3s ease;
-				width: 100%;
+		// Submit button.
+		input[type="submit"] {
+			background-color: $WCEU2023-Red-100;
+			border: none;
+			border-radius: 2rem;
+			color: $WCEU2023-TotalWhite-100;
+			font-family: $Mulish;
+			font-size: 1.2rem;
+			font-weight: $Bold;
+			display: block;
+			line-height: 1.5;
+			padding: 1rem;
+			transition: background-color 0.3s ease;
+			width: 100%;
 
-				&:hover {
-					background-color: $WCEU2023-Red-80;
-				}
+			&:hover {
+				background-color: $WCEU2023-Red-80;
 			}
 		}
 	}
