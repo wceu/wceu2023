@@ -176,6 +176,7 @@
 					font-size: var(--wp--preset--font-size--medium);
 					line-height: 2;
 					padding: 1rem;
+					resize: none;
 					width: 100%;
 				}
 
@@ -193,6 +194,60 @@
 					margin-top: 3rem;
 				}
 			}
+
+			&.tix_invoice_table {
+				margin-top: 1.5rem;
+				width: 100%;
+
+				tbody {
+					tr {
+
+						@include media-max(sm) {
+							display: flex;
+							flex-direction: column;
+							flex-wrap: wrap;
+							gap: 0.75rem;
+							padding: 1.5rem 0;
+
+							> td {
+								padding: 0 2rem;
+								width: 100%;
+							}
+						}
+					}
+				}
+
+				// Inputs
+				input {
+					background-color: $WCEU2023-TotalWhite-100;
+					border: 2px solid $WCEU2023-Yellow-100;
+					font-size: var(--wp--preset--font-size--medium);
+					line-height: 2;
+					padding: 1rem;
+
+					&[type="text"],
+					&[type="phone"],
+					&[type="url"],
+					&[type="email"] {
+						width: 100%;
+					}
+				}
+
+				textarea {
+					background-color: $WCEU2023-TotalWhite-100;
+					border: 2px solid $WCEU2023-Yellow-100;
+					font-size: var(--wp--preset--font-size--medium);
+					line-height: 2;
+					padding: 1rem;
+					resize: none;
+					width: 100%;
+				}
+			}
+		}
+
+		.camptix-invoice-toggle-wrapper {
+			margin-top: 1.5rem;
+			width: 100%;
 		}
 
 		// Submit button.
@@ -206,6 +261,7 @@
 			font-weight: $Bold;
 			display: block;
 			line-height: 1.5;
+			margin-bottom: 5rem;
 			padding: 1rem;
 			transition: background-color 0.3s ease;
 			width: 100%;
@@ -222,12 +278,15 @@
 			}
 
 			.tix-submit {
+				margin-top: 5rem;
 				float: none;
 			}
 
 			.tix-payment-method {
 				.tix-payment-tab {
 					border: none;
+					padding: 0;
+					text-align: center;
 				}
 			}
 		}
