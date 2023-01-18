@@ -64,7 +64,8 @@ footer {
 
 	.footer-subscribe {
 		overflow: hidden;
-		.wp-container-17 {
+		.wp-block-column {
+			position: relative;
 			z-index: 2;
 			&:before {
 				content: '';
@@ -93,9 +94,6 @@ footer {
 				bottom: 0px;
 				right: -200px;
 			}
-		}
-		.wp-container-18 {
-			position: relative;
 		}
 
 		button.wp-block-button__link.no-border-radius {
