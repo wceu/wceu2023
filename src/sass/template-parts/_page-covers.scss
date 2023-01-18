@@ -2,34 +2,32 @@
 	margin-top: 0;
 	background-repeat: no-repeat;
 	background-size: contain;
-	background-position: 80% 50px;
+    background-position: 80% 50%;
+	@include media-max(md) {
+		background-position: bottom right;
+	}
+
+	.wp-block-post-title {
+		color: $WCEU2023-DarkBlue-100 !important;
+	}
 
 	&.blue-cover {
 		background-color: $WCEU2023-Blue-60;
-
-		@include media-min(md) {
-			background-image: url(//europe.wordcamp.org/2023/files/2023/01/call-for-cover-symbol.png);
-		}
-
-		.wp-block-post-title {
-			color: $WCEU2023-DarkBlue-100;
-		}
+		background-image: url(//europe.wordcamp.org/2023/files/2023/01/call-for-cover-symbol.png);
 	}
 
 	&.pink-cover {
 		background-color: $WCEU2023-Red-60;
+		background-image: url(//europe.wordcamp.org/2023/files/2023/01/organizers-cover-symbol.png);
+		background-size: 400px;
 	}
 
 	&.turquoise-cover {
 		background-color: $WCEU2023-Turquoise-60;
-
-		@include media-min(md) {
-			background-image: url(//europe.wordcamp.org/2023/files/2023/01/contact-page-cover-symbol.png);
-		}
-
-		.wp-block-post-title {
-			color: $WCEU2023-DarkBlue-100;
-		}
+		background-image: url(//europe.wordcamp.org/2023/files/2023/01/contact-page-cover-symbol.png);
+		background-size: 900px;
+		background-position: right 180px;
+    
 	}
 }
 
@@ -38,6 +36,24 @@
 	header {
 		.wp-block-group.has-background {
 			background-color: $WCEU2023-Blue-60 !important;
+		}
+	}
+}
+
+// organisers template header bg override
+.page-template-wp-custom-template-organisers-template {
+	header {
+		.wp-block-group.has-background {
+			background-color: $WCEU2023-Red-60 !important;
+		}
+	}
+}
+
+// organisers template header bg override
+.page-template-wp-custom-template-contact-page-template {
+	header {
+		.wp-block-group.has-background {
+			background-color: $WCEU2023-Turquoise-60 !important;
 		}
 	}
 }
