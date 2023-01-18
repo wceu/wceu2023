@@ -18,7 +18,7 @@
 	.wp-block-post-excerpt {
 		margin-top: 0;
 	}
-	
+
 	.wp-block-post-excerpt__excerpt {
 		max-height: 80px;
 		overflow: hidden;
@@ -38,29 +38,24 @@
 // news page bg
 .category-news {
 	.latest-news {
+
+		background-image: url(//europe.wordcamp.org/2023/files/2023/01/latest-news-page-background-symbol.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		margin-bottom: -25px;
+
 		.wp-block-post-date {
 			color: $WCEU2023-Red-100;
 		}
-		.wp-block-post-title, 
+
+		.wp-block-post-title,
 		.wp-block-post-excerpt {
 			color: $WCEU2023-DarkBlue-100;
 		}
 
-		background: none;
-		.wp-block-query:before {
-			content: "";
-			background-image: url(//europe.wordcamp.org/2023/files/2023/01/latest-news-page-background-symbol.png);
-			background-repeat: no-repeat;
-			background-size: cover;
-			height: 100%;
-			width: 100%;
-			position: fixed;
-			left: 0;
-			top: 0;
-			z-index: -1;
-		}
 	}
-	
+
 }
 
 // homepage bg
