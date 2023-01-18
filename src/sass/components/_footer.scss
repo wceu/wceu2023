@@ -98,5 +98,11 @@ footer {
 			position: relative;
 		}
 
+		button.wp-block-button__link.no-border-radius {
+			font-family: $Mulish;
+			font-weight: $SemiBold;
+			color: #fff!important;
+		}
+
 	}
 }
