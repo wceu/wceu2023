@@ -29,3 +29,31 @@
 	}
 
 }
+
+// news page bg
+.category-news {
+	.latest-news {
+		.wp-block-query:before {
+			content: "";
+			background-image: url(//europe.wordcamp.org/2023/files/2023/01/latest-news-page-background-symbol.png);
+			background-repeat: no-repeat;
+			background-size: cover;
+			height: 100%;
+			width: 100%;
+			position: fixed;
+			left: 0;
+			top: 0;
+			z-index: -1;
+		}
+	}
+	
+}
+
+// homepage bg
+.home {
+	.latest-news {
+		background-color: #fbd363;
+		background-image: url(//europe.wordcamp.org/2023/files/2023/01/latest_news_section_symbol.png);
+		background-repeat: no-repeat;
+	}
+}
