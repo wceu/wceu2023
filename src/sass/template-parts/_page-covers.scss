@@ -30,6 +30,11 @@
 		background-position: right 180px;
 
 	}
+
+	&.yellow-cover {
+		background-color: $WCEU2023-Yellow-80;
+		background-image: url(//europe.wordcamp.org/2023/files/2023/01/latest-news-page-cover-symbol.png);
+	}
 }
 
 // calls template header bg override
@@ -55,6 +60,15 @@
 	header {
 		.wp-block-group.has-background {
 			background-color: $WCEU2023-Turquoise-60 !important;
+		}
+	}
+}
+
+// news page
+.category-news {
+	header {
+		.wp-block-group.has-background {
+			background-color: $WCEU2023-Yellow-80 !important;
 		}
 	}
 }
