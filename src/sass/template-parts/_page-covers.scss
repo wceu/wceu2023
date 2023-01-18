@@ -6,6 +6,7 @@
 
 	@include media-max(md) {
 		background-position: bottom right;
+		min-height: 200px !important;
 	}
 
 	.wp-block-post-title,
