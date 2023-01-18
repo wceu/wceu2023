@@ -63,6 +63,40 @@ footer {
 	}
 
 	.footer-subscribe {
-		display: none;
+
+		.wp-container-17 {
+			z-index: 2;
+			&:before {
+				content: '';
+				position: absolute;
+				display: block;
+				background: url(https://europe.wordcamp.org/2023/files/2022/12/Pattern-1.png);
+				background-position: top left;
+				background-repeat: no-repeat;
+				background-size: 300px;
+				width: 300px;
+				height: 150px;
+				bottom: 0;
+				left: 0px;
+			}
+			&:after {
+				content: '';
+				position: absolute;
+				display: block;
+				z-index: -1;
+				background: url(//europe.wordcamp.org/2023/files/2023/01/organizers-cover-symbol.png);
+				background-repeat: no-repeat;
+				background-position: top left;
+				background-size: 600px;
+				width: 600px;
+				height: 300px;	
+				bottom: 0px;
+				right: -200px;
+			}
+		}
+		.wp-container-18 {
+			position: relative;
+		}
+
 	}
 }
