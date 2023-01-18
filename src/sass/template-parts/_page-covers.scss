@@ -2,7 +2,8 @@
 	margin-top: 0;
 	background-repeat: no-repeat;
 	background-size: contain;
-    background-position: 80% 50%;
+	background-position: 80% 50%;
+
 	@include media-max(md) {
 		background-position: bottom right;
 	}
@@ -27,7 +28,7 @@
 		background-image: url(//europe.wordcamp.org/2023/files/2023/01/contact-page-cover-symbol.png);
 		background-size: 900px;
 		background-position: right 180px;
-    
+
 	}
 }
 
