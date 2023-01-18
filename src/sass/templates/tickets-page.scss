@@ -1,20 +1,37 @@
 .entry-content {
 	#tix {
 		table.tix_tickets_table {
-			&.tix-tickets-list {
-				background-color: $WCEU2023-Yellow-40;
-				border-collapse: collapse;
-				color: $WCEU2023-DarkBlue-100;
-				font-family: $Mulish;
+			background-color: $WCEU2023-Yellow-40;
+			border-collapse: collapse;
+			color: $WCEU2023-DarkBlue-100;
+			font-family: $Mulish;
 
+			thead {
+				tr {
+					th {
+						font-weight: $Bold;
+						padding: 1.5rem 2rem;
+					}
+				}
+			}
+
+			tbody {
+				tr {
+					> th,
+					> td {
+						background: $WCEU2023-Yellow-20;
+						padding: 1.5rem 2rem;
+					}
+				}
+			}
+
+			// Ticket sales list.
+			&.tix-tickets-list {
 				thead {
 					tr {
 						border-bottom: 2px solid $WCEU2023-DarkBlue-100;
 
 						th {
-							font-weight: $Bold;
-							padding: 1.5rem 2rem;
-
 							&.tix-column-description {
 								text-align: left;
 							}
@@ -61,6 +78,53 @@
 					}
 				}
 			}
+
+			// Order Summary.
+			&.tix-order-summary {
+				thead {
+					tr {
+						th {
+							&.tix-column-description {
+								text-align: left;
+							}
+						}
+					}
+				}
+
+				tbody {
+					tr {
+						td {
+							&.tix-column-per-ticket,
+							&.tix-column-quantity,
+							&.tix-column-price {
+								text-align: center;
+							}
+						}
+
+						&.tix-row-total {
+							text-align: center;
+						}
+
+						> th,
+						> td {
+							background: $WCEU2023-Yellow-20;
+	
+							&:nth-child(even) {
+								background: $WCEU2023-Yellow-10;
+							}
+						}
+					}
+				}
+
+				width: 100%;
+			}
+
+			// Attendee Form.
+			&.tix-attendee-form {
+				~ .tix-attendee-form {
+					margin-top: 3rem;
+				}
+			}
 		}
 
 		// Submit button.
@@ -80,6 +144,23 @@
 
 			&:hover {
 				background-color: $WCEU2023-Red-80;
+			}
+		}
+
+		form {
+			.tix-wide-tab {
+				float: none;
+				width: auto;
+			}
+
+			.tix-submit {
+				float: none;
+			}
+
+			.tix-payment-method {
+				.tix-payment-tab {
+					border: none;
+				}
 			}
 		}
 	}
