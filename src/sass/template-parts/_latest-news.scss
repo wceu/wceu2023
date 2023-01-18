@@ -15,6 +15,10 @@
 		max-width: 1680px !important;
 	}
 
+	.wp-block-post-excerpt {
+		margin-top: 0;
+	}
+	
 	.wp-block-post-excerpt__excerpt {
 		max-height: 80px;
 		overflow: hidden;
@@ -26,6 +30,7 @@
 		font-weight: $Bold !important;
 		color: $WCEU2023-Red-100;
 		font-size: 2rem;
+		margin-top: 0;
 	}
 
 }
@@ -33,6 +38,14 @@
 // news page bg
 .category-news {
 	.latest-news {
+		.wp-block-post-date {
+			color: $WCEU2023-Red-100;
+		}
+		.wp-block-post-title, 
+		.wp-block-post-excerpt {
+			color: $WCEU2023-DarkBlue-100;
+		}
+
 		background: none;
 		.wp-block-query:before {
 			content: "";
