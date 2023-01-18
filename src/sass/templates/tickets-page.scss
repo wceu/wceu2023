@@ -1,0 +1,93 @@
+.entry-content {
+	#tix {
+		table.tix_tickets_table {
+			background-color: $WCEU2023-Yellow-40;
+			border-collapse: collapse;
+			color: $WCEU2023-DarkBlue-100;
+			font-family: $Mulish;
+
+			thead {
+				tr {
+					border-bottom: 2px solid $WCEU2023-DarkBlue-100;
+
+					th {
+						font-weight: $Bold;
+						padding: 1.5rem 2rem;
+
+						&.tix-column-description {
+							text-align: left;
+						}
+					}
+				}
+			}
+
+			tbody {
+				tr {
+					> th,
+					> td {
+						background: $WCEU2023-Yellow-20;
+
+						&:nth-child(even) {
+							background: $WCEU2023-Yellow-10;
+						}
+					}
+
+					&:not(:last-child) {
+						border-bottom: 2px solid $WCEU2023-DarkBlue-100;
+					}
+
+					th {
+						padding: 3rem 2rem;
+
+						&.tix-column-description {
+							text-align: left;
+
+							label.tix-ticket-title {
+								display: inline-block;
+								margin-bottom: 0.5rem;
+							}
+						}
+					}
+
+					td {
+						text-align: center;
+
+						&.tix-column-price,
+						&.tix-column-remaining {
+							font-weight: $Bold;
+						}
+					}
+				}
+			}
+		}
+
+		input[type="submit"] {
+			background-color: $WCEU2023-Red-100;
+			border: none;
+			border-radius: 2rem;
+			color: $WCEU2023-TotalWhite-100;
+			font-family: $Mulish;
+			font-size: 1.2rem;
+			font-weight: $Bold;
+			display: block;
+			line-height: 1.5;
+			padding: 1rem;
+			transition: background-color 0.3s ease;
+			width: 100%;
+
+			&:hover {
+				background-color: $WCEU2023-Red-80;
+			}
+		}
+	}
+
+	#tix-errors {
+		.tix-error {
+			background-color: $WCEU2023-Red-100;
+			border: none;
+			color: $WCEU2023-TotalWhite-100;
+			font-weight: $SemiBold;
+			padding: 1em;
+		}
+	}
+}

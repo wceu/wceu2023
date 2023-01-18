@@ -1,14 +1,16 @@
 .page-cover {
 	margin-top: 0;
-	background-position: top right;
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: 80% 50px;
+
 	&.blue-cover {
 		background-color: $WCEU2023-Blue-60;
+
 		@include media-min(md) {
 			background-image: url(//europe.wordcamp.org/2023/files/2023/01/call-for-cover-symbol.png);
 		}
+
 		.wp-block-post-title {
 			color: $WCEU2023-DarkBlue-100;
 		}
@@ -20,9 +22,11 @@
 
 	&.turquoise-cover {
 		background-color: $WCEU2023-Turquoise-60;
+
 		@include media-min(md) {
 			background-image: url(//europe.wordcamp.org/2023/files/2023/01/contact-page-cover-symbol.png);
 		}
+
 		.wp-block-post-title {
 			color: $WCEU2023-DarkBlue-100;
 		}
@@ -31,7 +35,7 @@
 
 // calls template header bg override
 .page-template-wp-custom-template-calls-template {
-	& header {
+	header {
 		.wp-block-group.has-background {
 			background-color: $WCEU2023-Blue-60 !important;
 		}
