@@ -318,50 +318,50 @@ footer .social-bar .wp-block-social-links {
   font-weight: 700;
 }
 
-.entry-content #tix table.tix_tickets_table {
+.entry-content #tix table.tix_tickets_table.tix-tickets-list {
   background-color: #fde9b1;
   border-collapse: collapse;
   color: #0a3773;
   font-family: "Mulish", sans-serif;
 }
-.entry-content #tix table.tix_tickets_table thead tr {
+.entry-content #tix table.tix_tickets_table.tix-tickets-list thead tr {
   border-bottom: 2px solid #0a3773;
 }
-.entry-content #tix table.tix_tickets_table thead tr th {
+.entry-content #tix table.tix_tickets_table.tix-tickets-list thead tr th {
   font-weight: 700;
   padding: 1.5rem 2rem;
 }
-.entry-content #tix table.tix_tickets_table thead tr th.tix-column-description {
+.entry-content #tix table.tix_tickets_table.tix-tickets-list thead tr th.tix-column-description {
   text-align: left;
 }
-.entry-content #tix table.tix_tickets_table tbody tr > th,
-.entry-content #tix table.tix_tickets_table tbody tr > td {
+.entry-content #tix table.tix_tickets_table.tix-tickets-list tbody tr > th,
+.entry-content #tix table.tix_tickets_table.tix-tickets-list tbody tr > td {
   background: #fef4d8;
 }
-.entry-content #tix table.tix_tickets_table tbody tr > th:nth-child(even),
-.entry-content #tix table.tix_tickets_table tbody tr > td:nth-child(even) {
+.entry-content #tix table.tix_tickets_table.tix-tickets-list tbody tr > th:nth-child(even),
+.entry-content #tix table.tix_tickets_table.tix-tickets-list tbody tr > td:nth-child(even) {
   background: #fffaec;
 }
-.entry-content #tix table.tix_tickets_table tbody tr:not(:last-child) {
+.entry-content #tix table.tix_tickets_table.tix-tickets-list tbody tr:not(:last-child) {
   border-bottom: 2px solid #0a3773;
 }
-.entry-content #tix table.tix_tickets_table tbody tr th {
+.entry-content #tix table.tix_tickets_table.tix-tickets-list tbody tr th {
   padding: 3rem 2rem;
 }
-.entry-content #tix table.tix_tickets_table tbody tr th.tix-column-description {
+.entry-content #tix table.tix_tickets_table.tix-tickets-list tbody tr th.tix-column-description {
   text-align: left;
 }
-.entry-content #tix table.tix_tickets_table tbody tr th.tix-column-description label.tix-ticket-title {
+.entry-content #tix table.tix_tickets_table.tix-tickets-list tbody tr th.tix-column-description label.tix-ticket-title {
   display: inline-block;
   margin-bottom: 0.5rem;
 }
-.entry-content #tix table.tix_tickets_table tbody tr td {
+.entry-content #tix table.tix_tickets_table.tix-tickets-list tbody tr td {
   text-align: center;
 }
-.entry-content #tix table.tix_tickets_table tbody tr td.tix-column-price, .entry-content #tix table.tix_tickets_table tbody tr td.tix-column-remaining {
+.entry-content #tix table.tix_tickets_table.tix-tickets-list tbody tr td.tix-column-price, .entry-content #tix table.tix_tickets_table.tix-tickets-list tbody tr td.tix-column-remaining {
   font-weight: 700;
 }
-.entry-content #tix input[type=submit] {
+.entry-content #tix table.tix_tickets_table input[type=submit] {
   background-color: #cd3c5a;
   border: none;
   border-radius: 2rem;
@@ -375,7 +375,7 @@ footer .social-bar .wp-block-social-links {
   transition: background-color 0.3s ease;
   width: 100%;
 }
-.entry-content #tix input[type=submit]:hover {
+.entry-content #tix table.tix_tickets_table input[type=submit]:hover {
   background-color: #d7637b;
 }
 .entry-content #tix-errors .tix-error {
