@@ -35,7 +35,7 @@
 
 }
 
-// news page bg
+// archive page
 .category-news {
 	.latest-news {
 
@@ -59,11 +59,25 @@
 
 }
 
-// homepage bg
+// homepage
 .home {
 	.latest-news {
 		background-color: #fbd363;
 		background-image: url(//europe.wordcamp.org/2023/files/2023/01/latest_news_section_symbol.png);
 		background-repeat: no-repeat;
+	}
+}
+
+//single post
+.single-post {
+	.latest-news {
+		background: $WCEU2023-Yellow-40;
+		.wp-block-post-date {
+			color: $WCEU2023-Red-100;
+		}
+		.wp-block-post-title,
+		.wp-block-post-excerpt {
+			color: $WCEU2023-DarkBlue-100;
+		}
 	}
 }
