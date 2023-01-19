@@ -1,0 +1,9 @@
+.page-id-1950 {
+
+	@include media-min(md) {
+		.cfs-topics {
+			min-height: 560px !important;
+		}
+	}
+
+}
