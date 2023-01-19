@@ -6,6 +6,10 @@
 	padding-top: 60px;
 	padding-bottom: 60px;
 
+	a.wp-block-read-more {
+		margin: 0;
+	}
+
 	@include media-max(md) {
 		background-position: bottom right;
 	}
@@ -72,6 +76,9 @@
 .single-post {
 	.latest-news {
 		background: $WCEU2023-Yellow-40;
+		.wp-block-heading {
+			color: $WCEU2023-DarkBlue-100;
+		}
 		.wp-block-post-date {
 			color: $WCEU2023-Red-100;
 		}
