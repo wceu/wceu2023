@@ -16,9 +16,11 @@
 	margin-top: 0 !important;
 }
 
-.top-logo {
-	width: 170px;
-    position: absolute;
-    top: -40px;
-    z-index: 99;
+.top-logo { 
+	img {
+		width: 170px;
+    	position: absolute;
+    	top: -40px;
+    	z-index: 99;
+	}
 }
