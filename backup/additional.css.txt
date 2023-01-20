@@ -136,3 +136,51 @@ ol.has-background a {
 }
 
 /* Lena's Experiments End */
+
+/* Forms Styling */
+/* Sponsors Form */
+
+css
+form#page-1 h2{
+	font-family: 'Philosopher', sans-serif;
+	color: #0A3773;
+}
+
+form#page-1 p{
+	font-family: 'Mulish', sans-serif;
+}
+
+.PDF_pageOuter {
+    background: #E9EFF7;
+}
+
+.PDF_questionDivide {
+    border-bottom: 1px solid #0A3773;
+    background: none;
+}
+
+.vertizio-correction1 {
+	width: unset !important;
+}
+
+.qNumber{
+	box-shadow: none;
+	background: #fff;
+	color: #1E5FB4;
+}
+
+.PDF_QT800 .title, .firstName, .lastName, .suffix {
+	border: none;
+}
+
+input[type=text] {
+	box-shadow: none;
+	height: 30px;
+}
+
+.button input, .button a.previous-page {
+	font-size: 20px;
+	font-family: 'Mulish', sans-serif;
+}
+
+
