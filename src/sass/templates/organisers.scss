@@ -48,7 +48,8 @@
 		.wordcamp-organizers__title {
 			@include media-min(md) {
 				text-align: left !important;
-				word-spacing: 100vw; // hack to make the text wrap
+				// word-spacing: 100vw; // hack to make the text wrap
+				font-size: 2.2rem; // decreased the font size as we have ppl with more than 3 words in their name
 			}
 			color: $WCEU2023-Red-100;
 		}
@@ -56,6 +57,7 @@
 			border: 10px solid $WCEU2023-Blue-100;
 			border-radius: 100%;
 			width: 60% !important;
+			height: auto !important;
 			@include media-max(sm) {
 				width: 90% !important;
 			}
