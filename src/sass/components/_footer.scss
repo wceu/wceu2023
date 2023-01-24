@@ -67,6 +67,33 @@ footer {
 	.footer-subscribe {
 		overflow: hidden;
 
+		.inner-footer-subscribe-container {
+
+			@include media-max(sm) {
+				padding: 20px !important;
+			}
+		}
+
+
+		form {
+			margin-top: 50px;
+
+			#subscribe-email {
+				position: relative;
+
+				#jetpack-subscribe-label {
+					top: -30px;
+					width: auto;
+					clip: unset;
+					clip-path: none;
+					height: auto;
+					font-family: $Mulish;
+					font-weight: $SemiBold;
+					font-size: 1rem !important;
+				}
+			}
+		}
+		
 		.wp-block-column {
 			position: relative;
 			z-index: 2;
@@ -75,7 +102,7 @@ footer {
 				content: "";
 				position: absolute;
 				display: block;
-				background: url(https://europe.wordcamp.org/2023/files/2022/12/Pattern-1.png);
+				background: url(//europe.wordcamp.org/2023/files/2022/12/Pattern-1.png);
 				background-position: top left;
 				background-repeat: no-repeat;
 				background-size: 300px;
@@ -90,7 +117,7 @@ footer {
 				position: absolute;
 				display: block;
 				z-index: -1;
-				background: url(//europe.wordcamp.org/2023/files/2023/01/organizers-cover-symbol.png);
+				background: url(//europe.wordcamp.org/2023/files/2023/01/WCEU2023-Newsletter_Symbol.png);
 				background-repeat: no-repeat;
 				background-position: top left;
 				background-size: 600px;
@@ -106,6 +133,5 @@ footer {
 			font-weight: $SemiBold;
 			color: #fff !important;
 		}
-
 	}
 }
