@@ -1,0 +1,77 @@
+.page-id-12 {
+	.wp-container-19.wp-container-19 > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+    	max-width: 1440px;	
+	}
+
+	main {
+		.wp-block-group {
+			max-width: 1680px !important;
+			margin-left: auto!important;
+			margin-right: auto!important;
+			margin-bottom: 40px;
+		}
+		ul.has-background {
+			background-color: $WCEU2023-Yellow-80 !important;
+			background: url(//europe.wordcamp.org/2023/files/2023/01/bird-symbol.png);
+			background-position: bottom right;
+			background-repeat: no-repeat;
+			padding: 60px;
+			list-style: inside;
+		}
+	}
+	hr {
+		border-color: $WCEU2023-DarkBlue-100;
+		width: 100%!important;
+		margin: 40px;
+	}
+
+	.wordcamp-post-list {
+		grid-column-gap: 2em;
+		margin-left: auto!important;
+		margin-right: auto!important;
+
+		li:first-child, 
+		.slug-jose-freitas, 
+		.slug-sjoerd-blom {
+			img {
+				border: 10px solid $WCEU2023-Turquoise-100 !important;
+			}
+		}
+	}
+	.wordcamp-organizer {
+		.wordcamp-image__avatar-container {
+			@include media-min(md) {
+				text-align: left !important;
+			}
+		}
+		// padding: 20px;
+		.wordcamp-organizers__title {
+			@include media-min(md) {
+				text-align: left !important;
+				word-spacing: 100vw; // hack to make the text wrap
+			}
+			color: $WCEU2023-Red-100;
+		}
+		img {
+			border: 10px solid $WCEU2023-Blue-100;
+			border-radius: 100%;
+			width: 60% !important;
+			@include media-max(sm) {
+				width: 90% !important;
+			}
+		}
+		.wordcamp-organizers__content {
+			// padding: 0 40px;
+		}
+
+		.organizer-links {
+			ul {
+				line-height: unset;
+			}
+			color: $WCEU2023-Blue-100;
+			a {
+				color: $WCEU2023-Red-100;
+			}
+		}
+	}
+}
