@@ -1,0 +1,39 @@
+.page-id-14 {
+	#tix-attendees {
+		max-width: 1440px !important;
+		.tix-attendee-list {
+			padding-left: 0;
+		}
+		a {
+			color: $WCEU2023-Red-100;
+		}
+		li {
+			overflow: hidden;
+			height: auto;
+			min-height: 350px;
+			text-align: center;
+			@include media-max(sm) {
+				width: 100%;
+			}
+			.avatar {
+				float: none;
+				width: initial;
+				height: initial;
+				border-radius: 100%;
+				border: 4px solid;
+				border-top-color: $WCEU2023-Blue-100;
+				border-right-color: $WCEU2023-Red-100;
+				border-bottom-color: $WCEU2023-Turquoise-100;
+				border-left-color: $WCEU2023-DarkBlue-100;
+				padding: 20px;
+			}
+			.tix-field {
+				margin-left: 0;
+				font-size: unset;
+			}
+			.tix-attendee-name {
+				color: $WCEU2023-Blue-100;
+			}
+		}
+	}
+}
