@@ -291,7 +291,24 @@
 					text-align: center;
 				}
 			}
+			.tix-column-quantity {
+				select {
+					padding: 20px;
+				}
+			}
 		}
+
+		#tix-coupon-container {
+			text-align: center;
+			
+			#tix-coupon-input {
+				width: 80%;
+				height: 25px;
+				margin-bottom: 20px;
+			}
+		}
+
+
 
 			//adding as a seperate block to make it easier to keep track of the edits
 		@include media-max(sm) {
@@ -339,5 +356,11 @@
 			font-weight: $SemiBold;
 			padding: 1em;
 		}
+	}
+}
+
+.tix-attendee-form {
+	td {
+    	text-align: left!important;
 	}
 }
