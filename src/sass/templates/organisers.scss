@@ -12,14 +12,6 @@
 			margin-right: auto!important;
 			margin-bottom: 40px;
 		}
-		ul.has-background {
-			background-color: $WCEU2023-Yellow-80 !important;
-			background: url(//europe.wordcamp.org/2023/files/2023/01/bird-symbol.png);
-			background-position: bottom right;
-			background-repeat: no-repeat;
-			padding: 60px;
-			list-style: inside;
-		}
 	}
 	hr {
 		border-color: $WCEU2023-DarkBlue-100;
@@ -32,7 +24,7 @@
 		margin-top: 30px!important;
 		margin-left: auto!important;
 		margin-right: auto!important;
-		
+
 		@include media-max(md) {
 			padding: 0;
 		}
