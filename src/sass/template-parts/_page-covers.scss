@@ -67,8 +67,9 @@
 	}
 }
 
-// news page
-.category-news {
+// news page | search page 
+.category-news, 
+.search-results {
 	header {
 		.wp-block-group.has-background {
 			background-color: $WCEU2023-Yellow-80 !important;
