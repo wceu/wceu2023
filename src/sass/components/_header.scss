@@ -20,28 +20,44 @@ header {
 
 	#modal-2-content {
 		ul {
-
-			@include media-max(sm) {
+			@include media-max(lg) {
 				margin: 0 auto;
 				text-align: center;
 				align-content: center;
 				align-items: center;
 			}
-
 		}
 
 		.wp-block-navigation-submenu {
 			a {
-
-				@include media-max(sm) {
+				@include media-max(lg) {
 					margin: 0 auto;
 					text-align: center;
 					align-content: center;
 					align-items: center;
 				}
 			}
-
 		}
 	}
+}
 
+// nav block breakpoint
+@include media-max(lg) {
+  .wp-block-navigation__responsive-container:not(.has-modal-open) {
+	bottom: 0 !important;
+	display: none !important;
+	left: 0 !important;
+	position: fixed !important;
+	right: 0 !important;
+	top: 0 !important;
+  }
+  .wp-block-navigation__responsive-container-open:not(.always-shown) {
+	display: initial; 
+  }
+}
+
+@include media-min(lg) {
+	.wp-block-navigation__responsive-container-open:not(.always-shown) {
+		display: none!important;
+	}
 }
