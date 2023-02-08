@@ -46,11 +46,7 @@
 				height: initial;
 				border-radius: 100%;
 				border: 4px solid;
-				border-top-color: $WCEU2023-Blue-100;
-				border-right-color: $WCEU2023-Red-100;
-				border-bottom-color: $WCEU2023-Turquoise-100;
-				border-left-color: $WCEU2023-DarkBlue-100;
-				padding: 20px;
+				border-color: $WCEU2023-Red-100;
 			}
 
 			.tix-field {
@@ -59,7 +55,10 @@
 			}
 
 			.tix-attendee-name {
+				font-family: $Mulish;
 				color: $WCEU2023-Blue-100;
+				font-weight: $Bold;
+				font-size: 1.4rem;
 			}
 		}
 	}
