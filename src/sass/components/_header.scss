@@ -12,6 +12,20 @@ header {
 				font-size: "1.5rem";
 			}
 		}
+
+		li:last-child {
+			.wp-block-navigation__submenu-container {
+				min-width: 400px !important;
+				li {
+					text-align: right;
+					
+					a {
+						display: inline-block !important;
+					}
+				}
+			}
+
+		}
 	}
 
 	.wp-block-navigation__responsive-container.is-menu-open {

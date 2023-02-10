@@ -31,17 +31,3 @@
 		z-index: 99;
 	}
 }
-
-header {
-	.wp-block-navigation {
-		.has-child {
-			&:not(.open-on-click) {
-				&:hover {
-					>.wp-block-navigation__submenu-container {
-						min-width: 400px;
-					}
-				}
-			}
-		}
-	}
-}
