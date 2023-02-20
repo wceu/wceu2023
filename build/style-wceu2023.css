@@ -159,17 +159,19 @@ header .wp-block-navigation li:last-child .wp-block-navigation__submenu-containe
 header .wp-block-navigation__responsive-container.is-menu-open {
   background-color: #1ebeaf !important;
 }
-header #modal-2 {
-  background-image: url(//europe.wordcamp.org/2023/files/2023/02/menu-symbol.png);
-  background-repeat: no-repeat;
-  background-size: auto 102vh;
-}
-header #modal-2 a.wp-block-navigation-item__content {
-  color: #cd3c5a !important;
-}
-header #modal-2 .wp-block-navigation__submenu-container {
-  padding-top: 0 !important;
-  padding-right: 0;
+@media (max-width: 1280px) {
+  header #modal-2 {
+    background-image: url(//europe.wordcamp.org/2023/files/2023/02/menu-symbol.png);
+    background-repeat: no-repeat;
+    background-size: auto 102vh;
+  }
+  header #modal-2 a.wp-block-navigation-item__content {
+    color: #cd3c5a !important;
+  }
+  header #modal-2 .wp-block-navigation__submenu-container {
+    padding-top: 0 !important;
+    padding-right: 0;
+  }
 }
 
 @media (max-width: 1280px) {
