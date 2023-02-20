@@ -159,7 +159,7 @@ header .wp-block-navigation li:last-child .wp-block-navigation__submenu-containe
 header .wp-block-navigation__responsive-container.is-menu-open {
   background-color: #1ebeaf !important;
 }
-header #modal-2-content {
+header #modal-2 {
   background-image: url(//europe.wordcamp.org/2023/files/2023/02/menu-symbol.png);
   background-repeat: no-repeat;
   background-size: auto 102vh;

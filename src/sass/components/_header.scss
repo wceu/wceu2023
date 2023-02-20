@@ -31,12 +31,15 @@ header {
 	.wp-block-navigation__responsive-container.is-menu-open {
 		background-color: $WCEU2023-Turquoise-100 !important;
 	}
+	#modal-2 {
 
-	#modal-2-content {
-		    
 		background-image: url(//europe.wordcamp.org/2023/files/2023/02/menu-symbol.png);
 		background-repeat: no-repeat;
 		background-size: auto 102vh;
+		
+	}
+	#modal-2-content {
+		    
 
 		ul {
 
