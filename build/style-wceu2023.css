@@ -164,6 +164,14 @@ header #modal-2 {
   background-repeat: no-repeat;
   background-size: auto 102vh;
 }
+header #modal-2 a.wp-block-navigation-item__content {
+  color: #cd3c5a !important;
+}
+header #modal-2 .wp-block-navigation__submenu-container {
+  padding-top: 0 !important;
+  padding-right: 0;
+}
+
 @media (max-width: 1280px) {
   .wp-block-navigation__responsive-container:not(.has-modal-open) {
     bottom: 0 !important;
