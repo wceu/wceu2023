@@ -795,6 +795,63 @@ footer .footer-subscribe button.wp-block-button__link.no-border-radius {
   font-size: 1.6rem;
 }
 
+@media (min-width: 992px) {
+  .page-template-wp-custom-template-speakers .wp-site-blocks {
+    background: url(//europe.wordcamp.org/2023/files/2023/02/all-speakers-page-vector.png);
+    background-repeat: no-repeat;
+    background-size: 600px;
+    background-position: -200px 35%;
+  }
+}
+.page-template-wp-custom-template-speakers main {
+  overflow-x: hidden;
+}
+.page-template-wp-custom-template-speakers main .wp-block-group {
+  max-width: 1680px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-bottom: 40px;
+}
+.page-template-wp-custom-template-speakers .wordcamp-speakers {
+  padding: 0;
+}
+.page-template-wp-custom-template-speakers .wordcamp-speaker .wordcamp-speakers__title a {
+  color: #cd3c5a !important;
+  font-weight: 700;
+}
+@media (min-width: 992px) {
+  .page-template-wp-custom-template-speakers .wordcamp-speaker .wordcamp-speakers__title a {
+    text-align: left !important;
+    font-size: 2.2rem;
+    text-decoration: none;
+  }
+}
+.page-template-wp-custom-template-speakers .wordcamp-speaker .wordcamp-image__avatar-container img {
+  border: 10px solid #1e5fb4;
+  border-radius: 100%;
+  width: 60% !important;
+}
+.page-template-wp-custom-template-speakers .wordcamp-speaker .wordcamp-speakers__sessions {
+  background-color: #a5e5df;
+  padding: 20px;
+  margin-top: 30px;
+  font-size: 2.2rem;
+}
+.page-template-wp-custom-template-speakers .wordcamp-speaker .wordcamp-speakers__sessions .wordcamp-speakers__sessions-heading {
+  margin: 0;
+  font-size: 1.2rem;
+}
+.page-template-wp-custom-template-speakers .wordcamp-speaker .wordcamp-speakers__sessions .wordcamp-speakers__session-link {
+  color: #0a3773 !important;
+  font-weight: 700;
+  text-decoration: none !important;
+  font-size: 1.5rem;
+}
+.page-template-wp-custom-template-speakers .wordcamp-speaker .wordcamp-speakers__sessions .wordcamp-speakers__session-info {
+  margin-top: 5px;
+  font-size: 1rem !important;
+}
+
 /*--------------------------------------------------------------
 # Template Parts
 --------------------------------------------------------------*/
@@ -850,6 +907,10 @@ footer .footer-subscribe button.wp-block-button__link.no-border-radius {
 .category-news header .wp-block-group.has-background,
 .search-results header .wp-block-group.has-background {
   background-color: #fbd363 !important;
+}
+
+.page-template-wp-custom-template-speakers header .wp-block-group.has-background {
+  background-color: #e18a9c !important;
 }
 
 .latest-news {
