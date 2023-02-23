@@ -37,15 +37,15 @@
 		margin-top: 0;
 	}
 
-	@include media-min(md) {
+	@include media-max(md) {
 		.home-articles {
- 	   		width: 90%!important;
+ 	   		width: 80%!important;
 		}
 	}
 
-		@include media-max(md) {
+	@include media-min(md) {
 		.home-articles {
- 	   		width: 80%!important;
+ 	   		width: 90%!important;
 		}
 	}
 
