@@ -956,8 +956,15 @@ footer .footer-subscribe button.wp-block-button__link.no-border-radius {
   font-size: 2rem;
   margin-top: 0;
 }
-.latest-news .home-articles {
-  width: 90% !important;
+@media (min-width: 992px) {
+  .latest-news .home-articles {
+    width: 90% !important;
+  }
+}
+@media (max-width: 992px) {
+  .latest-news .home-articles {
+    width: 80% !important;
+  }
 }
 
 .category-news .latest-news,

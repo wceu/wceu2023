@@ -37,8 +37,16 @@
 		margin-top: 0;
 	}
 
-	.home-articles {
- 	   width: 90%!important;
+	@include media-min(md) {
+		.home-articles {
+ 	   		width: 90%!important;
+		}
+	}
+
+		@include media-max(md) {
+		.home-articles {
+ 	   		width: 80%!important;
+		}
 	}
 
 }
