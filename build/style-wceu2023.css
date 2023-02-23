@@ -672,6 +672,15 @@ footer .footer-subscribe button.wp-block-button__link.no-border-radius {
   min-height: 315px;
 }
 
+@media (max-width: 992px) {
+  .page-id-4451 .wp-block-jetpack-contact-form .grunion-field-width-50-wrap {
+    flex: 1 1 calc(50% - var(--wp--style--block-gap, 1.5rem) * 1);
+    max-width: 50%;
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+}
+
 .page-id-12 .wp-container-19.wp-container-19 > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
   max-width: 1440px;
 }
