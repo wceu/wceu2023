@@ -37,17 +37,17 @@
 		margin-top: 0;
 	}
 
-	@include media-max(md) {
-		.home-articles {
- 	   		width: 80%!important;
-		}
-	}
+	// @include media-max(md) {
+	// 	.home-articles {
+ 	//    		width: 80%!important;
+	// 	}
+	// }
 
-	@include media-min(lg) {
-		.home-articles {
- 	   		width: 90%!important;
-		}
-	}
+	// @include media-min(lg) {
+	// 	.home-articles {
+ 	//    		width: 90%!important;
+	// 	}
+	// }
 
 }
 
