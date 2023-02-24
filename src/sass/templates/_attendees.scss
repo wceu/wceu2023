@@ -61,5 +61,50 @@
 				font-size: 1.6rem;
 			}
 		}
+		// .tix-attendee-twitter {
+    	// 	width: 20%;
+		// 	float: left;
+		// 	margin-top: 10px;
+		// 	visibility: hidden;
+
+		// 	&::before {
+		// 		content: "";
+		// 		width: 30px;
+		// 		height: 30px;
+		// 		display: inline-block;
+		// 		visibility: visible;
+		// 		background: url(//europe.wordcamp.org/2023/files/2023/02/Twitter.png) no-repeat;
+		// 		background-size: contain;
+		// 	}
+		// }
+
+		// .tix-attendee-url {
+		// 	width: 20%;
+		// 	float: left;
+		// 	margin-top: 10px;
+		// 	visibility: hidden;
+
+		// 	&::before {
+		// 		content: "";
+		// 		width: 30px;
+		// 		height: 30px;
+		// 		display: inline-block;
+		// 		visibility: visible;
+		// 	}
+
+		// 	&:nth-of-type(even) {
+		// 		&::before {
+		// 			background: url(//europe.wordcamp.org/2023/files/2023/02/Website.png) no-repeat;
+		// 			background-size: contain;
+		// 		}
+		// 	}
+
+		// 	&:nth-of-type(odd) {
+		// 		&::before {
+		// 			background: url(//europe.wordcamp.org/2023/files/2023/02/Wordpress.png) no-repeat;
+		// 			background-size: contain;
+		// 		}
+		// 	}
+		// }
 	}
 }
