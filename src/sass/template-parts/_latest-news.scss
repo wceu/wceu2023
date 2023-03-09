@@ -37,7 +37,7 @@
 		margin-top: 0;
 	}
 
-	@include media-max(md) {
+	@include media-max(lg) {
 		.home-articles {
  	   		width: 90%!important;
 		}
