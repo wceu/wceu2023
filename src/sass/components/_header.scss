@@ -16,9 +16,10 @@ header {
 		li:last-child {
 			.wp-block-navigation__submenu-container {
 				min-width: 400px !important;
+
 				li {
 					text-align: right;
-					
+
 					a {
 						display: inline-block !important;
 					}
@@ -31,23 +32,22 @@ header {
 	.wp-block-navigation__responsive-container.is-menu-open {
 		background-color: $WCEU2023-Turquoise-100 !important;
 	}
+
 	@include media-max(lg) {
-	#modal-2 {
+		#modal-2 {
 
 			background-image: url(//europe.wordcamp.org/2023/files/2023/02/menu-symbol.png);
 			background-repeat: no-repeat;
 			background-size: auto 102vh;
 
 			a.wp-block-navigation-item__content {
-					color: $WCEU2023-Red-100 !important;
+				color: $WCEU2023-Red-100 !important;
 			}
 
 			.wp-block-navigation__submenu-container {
 				padding-top: 0 !important;
 				padding-right: 0;
 			}
-
-
 
 		}
 	}
