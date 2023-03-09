@@ -39,18 +39,22 @@
 
 	@include media-max(md) {
 		.home-articles {
- 	   		width: 80%!important;
+ 	   		width: 90%!important;
+		}
+		.alignfull:not(.wp-block-group) .alignfull {
+			width: 90%!important;
 		}
 	}
 
 	@include media-min(lg) {
 		.home-articles {
- 	   		width: 90%!important;
+ 	   		width: 95%!important;
 		}
 	}
 
+	
 }
-
+	
 // archive page | search page
 .category-news,
 .search-results {
