@@ -94,7 +94,9 @@
 }
 
 // single session page
-.wcb_session-template-default {
+.wcb_session-template-default,
+.single-wcb_session,
+.postid-7401 {
 	header {
 		.wp-block-group.has-background {
 			background-color: $WCEU2023-Red-60 !important;
