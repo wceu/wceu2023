@@ -84,7 +84,23 @@
 			background-color: $WCEU2023-Red-60 !important;
 		}
 	}
-	.page-cover  {
+	.page-cover {
+		h4 {
+			font-size: 1.3rem;
+			font-weight: bold;
+			margin-bottom: -15px;
+		}
+	}
+}
+
+.wcb_session-template-default,
+.single-wcb_session {
+	header {
+		.wp-block-group.has-background {
+			background-color: $WCEU2023-Red-60 !important;
+		}
+	}
+	.page-cover {
 		h4 {
 			font-size: 1.3rem;
 			font-weight: bold;
