@@ -23,6 +23,13 @@
 	margin-top: 0 !important;
 }
 
+@include media-max(xxl) {
+		.mw-90 {
+ 	   		width: 90%!important;
+			margin: 0 auto !important;
+	}
+}
+
 .top-logo {
 	img {
 		width: 180px;

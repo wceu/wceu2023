@@ -37,20 +37,22 @@
 		margin-top: 0;
 	}
 
-	@include media-max(lg) {
+	@include media-max(xxl) {
 		.home-articles {
  	   		width: 90%!important;
+			margin: 0 auto !important;
 		}
 		.alignfull:not(.wp-block-group) .alignfull {
 			width: 90%!important;
+			margin: 0 auto !important;
 		}
 	}
 
-	@include media-min(lg) {
-		.home-articles {
- 	   		width: 95%!important;
-		}
-	}
+	// @include media-min(lg) {
+	// 	.home-articles {
+ 	//    		width: 90%!important;
+	// 	}
+	// }
 
 	
 }
