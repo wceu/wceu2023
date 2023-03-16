@@ -48,11 +48,11 @@
 		}
 	}
 
-	// @include media-min(lg) {
-	// 	.home-articles {
- 	//    		width: 90%!important;
-	// 	}
-	// }
+	@include media-min(lg) {
+		.home-articles {
+ 	   		width: 90%!important;
+		}
+	}
 
 	
 }
