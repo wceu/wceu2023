@@ -38,6 +38,13 @@
 			font-family: $Mulish;
 			background-color: $WCEU2023-Red-100;
 			padding: 15px 25px;
+			font-weight: bold;
+		}
+		.secondary-button { 
+			a {
+				background-color: #fff !important;
+				color: $WCEU2023-Red-100 !important;
+			}
 		}
 	}
 

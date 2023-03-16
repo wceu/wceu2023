@@ -10,6 +10,7 @@ header {
 
 			@include media-max(md) {
 				font-size: "1.5rem";
+				
 			}
 		}
 
@@ -25,7 +26,6 @@ header {
 					}
 				}
 			}
-
 		}
 	}
 
@@ -35,7 +35,6 @@ header {
 
 	@include media-max(lg) {
 		#modal-2 {
-
 			background-image: url(//europe.wordcamp.org/2023/files/2023/02/menu-symbol.png);
 			background-repeat: no-repeat;
 			background-size: auto 102vh;
@@ -48,7 +47,6 @@ header {
 				padding-top: 0 !important;
 				padding-right: 0;
 			}
-
 		}
 	}
 }
@@ -72,5 +70,53 @@ header {
 @include media-min(lg) {
 	.wp-block-navigation__responsive-container-open:not(.always-shown) {
 		display: none !important;
+	}
+}
+
+.top-search {
+	.wp-block-search__inside-wrapper {
+		position: relative;
+		width: auto !important;
+		min-width: 0;
+		border: none;
+	}
+
+	.wp-block-search__button {
+		border-radius: 50%;
+		height: 55px;
+		width: 55px;
+		background: #fff;
+	}
+
+	.wp-block-search__button svg {
+		min-height: 40px;
+		margin-top: 10px;
+		min-width: 65px;
+		vertical-align: text-bottom;
+		position: absolute;
+		top: 0;
+		right: 0;
+		fill: $WCEU2023-Red-100;
+	}
+
+	.wp-block-search__input {
+		width: 0;
+		min-width: 0;
+		padding: 10px;
+		opacity: 0;
+		visibility: hidden;
+		transition: width 0.3s ease-in-out, padding 0.3s ease-in-out,
+			opacity 0.3s ease-in-out;
+	}
+
+	.wp-block-search__button {
+		position: static;
+	}
+
+	.wp-block-search__inside-wrapper:hover .wp-block-search__input,
+	.wp-block-search__inside-wrapper:focus .wp-block-search__input {
+		width: 250px;
+		opacity: 1;
+		visibility: visible;
 	}
 }
