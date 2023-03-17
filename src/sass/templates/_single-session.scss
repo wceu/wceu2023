@@ -15,11 +15,15 @@ h2.session-speakers {
     padding: 100px 0;
 }
 
+.session-footer ul {
+    gap: 5.25em;
+}
+
 li.wcb_session.type-wcb_session{
     background-color: #fff;
     border: 8px solid #1d5fb4;
     min-height: 300px;
-    width: 33.3%;
+    width: 25%!important;
 }
 
 li.wcb_session.type-wcb_session h4 {
