@@ -8,11 +8,12 @@
 }
 
 .taxonomy-wcb_session_category a{
-    font-family: $Mulish;
+    font-family: $Philosopher;
     font-size: 25px;
     font-weight: $Bold;
     color: #cd3c5a;
     text-decoration: none;
+    padding: 30px 30px 0 30px;
 }
 
 h2.session-speakers {
@@ -35,7 +36,7 @@ li.wcb_session.type-wcb_session{
 }
 
 li.wcb_session.type-wcb_session h4 {
-    padding: 30px;
+    padding: 20px 30px 30px 30px;
     margin: 0;
 }
 
