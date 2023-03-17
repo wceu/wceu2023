@@ -40,7 +40,23 @@ li.wcb_session.type-wcb_session h4{
 span.wp-block-wordcamp-session-speakers__name {
     font-family: $Mulish;
     font-size: 20px;
-    font-weight: $SemiBold;
+    font-weight: $Bold;
     color: #cd3c5a;
+}
+
+ul#session-speaker-names li a{
+    font-family: $Mulish;
+    font-size: 20px;
+    font-weight: $Bold;
+    color: #cd3c5a;
+    text-decoration: none;
+}
+
+span.session-categories-links a {
+    font-family: $Mulish;
+    font-size: 20px;
+    font-weight: $Bold;
+    color: #cd3c5a;
+    text-decoration: none;
 }
 
