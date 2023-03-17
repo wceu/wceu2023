@@ -70,6 +70,7 @@ justify-content: flex-start;
 ul#session-speaker-names{
     display: flex;
     order: 3;
+    padding-left: 0;
 }
 
 #session-speaker-names li {
@@ -78,5 +79,9 @@ ul#session-speaker-names{
 
 span.session-categories-links{
     order: 2;
+}
+
+.session-content p{
+    display: none;
 }
 
