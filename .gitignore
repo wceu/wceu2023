@@ -6,3 +6,4 @@
 # We only need the CSS files, so we can ignore the rest.
 build/wceu2023.js
 build/wceu2023.asset.*
+package-lock.json
