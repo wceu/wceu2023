@@ -11,11 +11,6 @@ h2.session-speakers {
     display: none;
 }
 
-.wp-block-group.has-background.session-footer {
-    padding-left: 0;
-    padding-right: 0;
-}
-
 li.wcb_session.type-wcb_session{
     background-color: #fff;
     border: 8px solid $WCEU2023-Blue-60;
@@ -28,5 +23,6 @@ li.wcb_session.type-wcb_session h4{
     font-family: $Mulish;
     font-weight: $Bold;
     padding: 30px;
+    margin: 0;
 }
 
