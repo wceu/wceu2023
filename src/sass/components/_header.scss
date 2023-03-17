@@ -70,7 +70,7 @@ header {
 .top-search {
 	display: none !important;
 
-	@include media-min(xl) {
+	@include media-min(xxl) {
 		display : initial !important;
   		margin-left: -620px!important
 	}
