@@ -17,7 +17,7 @@ h2.session-speakers {
 
 li.wcb_session.type-wcb_session{
     background-color: #fff;
-    border: 8px solid #083773;
+    border: 8px solid #1d5fb4;
     min-height: 300px;
     width: 33.3%;
 }
@@ -31,9 +31,16 @@ li.wcb_session.type-wcb_session h4{
 }
 
 .session-footer h3{
-    font-size: 30px;
+    font-size: 40px;
     font-family: $Philosopher;
     font-weight: $Bold;
+    color: #083773;
+}
+
+span.wp-block-wordcamp-session-speakers__name {
+    font-family: $Mulish;
+    font-size: 20px;
+    font-weight: $SemiBold;
     color: #cd3c5a;
 }
 
