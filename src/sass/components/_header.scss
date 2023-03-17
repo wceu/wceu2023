@@ -68,6 +68,8 @@ header {
 }
 
 .top-search {
+	display: none !important;
+	
 	.wp-block-search__inside-wrapper {
 		position: relative;
 		width: auto !important;
@@ -75,10 +77,7 @@ header {
 		border: none;
 	}
 
-	.wp-block-search {
-		margin-left: -575px;
-	}
-	
+
 	.wp-block-search__button {
 		border-radius: 50%;
 		height: 55px;
