@@ -11,6 +11,10 @@ h2.session-speakers {
     display: none;
 }
 
+.session-footer {
+    padding: 50px 0;
+}
+
 li.wcb_session.type-wcb_session{
     background-color: #fff;
     border: 8px solid $WCEU2023-Blue-60;
@@ -24,5 +28,11 @@ li.wcb_session.type-wcb_session h4{
     font-weight: $Bold;
     padding: 30px;
     margin: 0;
+}
+
+.session-footer h3{
+    font-size: 30px;
+    font-family: $Mulish;
+    font-weight: $Bold;
 }
 
