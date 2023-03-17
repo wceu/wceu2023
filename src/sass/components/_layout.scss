@@ -38,3 +38,9 @@
 		z-index: 99;
 	}
 }
+
+.wp-block-jetpack-contact-form-container  {
+	.contact-form label.radio {
+		font-weight: $Bold !important;
+	}
+}
