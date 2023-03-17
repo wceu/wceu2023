@@ -60,3 +60,23 @@ span.session-categories-links a {
     text-decoration: none;
 }
 
+.session-group.wp-block-post-content{
+display: flex;
+flex-direction: column-reverse;
+align-items: flex-start;
+justify-content: flex-start;
+}
+
+ul.session-speaker-names{
+    display: flex;
+    order: 3;
+}
+
+#session-speaker-names li {
+    order: 1;
+}
+
+span.session-categories-links{
+    order: 2;
+}
+
