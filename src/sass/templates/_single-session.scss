@@ -22,12 +22,13 @@ li.wcb_session.type-wcb_session{
     width: 33.3%;
 }
 
-li.wcb_session.type-wcb_session h4{
+li.wcb_session.type-wcb_session h4 a{
     font-size: 25px;
     font-family: $Mulish;
     font-weight: $Bold;
     padding: 30px;
     margin: 0;
+    text-decoration: none;
 }
 
 .session-footer h3{
