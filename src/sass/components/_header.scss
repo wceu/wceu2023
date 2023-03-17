@@ -69,7 +69,12 @@ header {
 
 .top-search {
 	display: none !important;
-	
+
+	@include media-min(xl) {
+		display : initial !important;
+  		margin-left: -620px!important
+	}
+
 	.wp-block-search__inside-wrapper {
 		position: relative;
 		width: auto !important;
