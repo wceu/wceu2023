@@ -16,7 +16,7 @@ h2.session-speakers {
     padding-right: 0;
 }
 
-li.wcb_session .type-wcb_session{
+li.wcb_session.type-wcb_session{
     background-color: #fff;
     border: 8px solid $WCEU2023-Blue-60;
     width: 200px;
@@ -24,7 +24,7 @@ li.wcb_session .type-wcb_session{
     padding: 30px;
 }
 
-li.wcb_session .type-wcb_session h4{
+li.wcb_session.type-wcb_session h4{
     font-size: 25px;
     font-family: $Mulish;
     font-weight: $Bold;
