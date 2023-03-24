@@ -1,104 +1,104 @@
 .single-wcb_session {
-    .speaker-session span a {
-        font-family: Mulish;
-        font-size: 25px;
-        font-weight: bold;
-        color: #122b48;
-        text-decoration: none;
-    }
+	.speaker-session span a {
+		font-family: $Mulish;
+		font-size: 25px;
+		font-weight: $Bold;
+		color: #122b48;
+		text-decoration: none;
+	}
 
-    .taxonomy-wcb_session_category {
-        padding: 30px 30px 0 30px;
+	.taxonomy-wcb_session_category {
+		padding: 30px 30px 0 30px;
 
-        a {
-            font-family: Philosopher;
-            font-size: 25px;
-            font-weight: bold;
-            color: #cd3c5a;
-            text-decoration: none;
-        }
-    }
+		a {
+			font-family: $Philosopher;
+			font-size: 25px;
+			font-weight: $Bold;
+			color: #cd3c5a;
+			text-decoration: none;
+		}
+	}
 
-    h2.session-speakers {
-        display: none;
-    }
+	h2.session-speakers {
+		display: none;
+	}
 
-    .session-footer {
-        padding: 100px 0;
+	.session-footer {
+		padding: 100px 0;
 
-        h3 {
-            font-family: Philosopher;
-            font-size: 40px;
-            font-weight: bold;
-            color: #083773;
-        }
+		h3 {
+			font-family: $Philosopher;
+			font-size: 40px;
+			font-weight: $Bold;
+			color: #083773;
+		}
 
-        ul {
-            gap: 5.25em !important;
-        }
-    }
+		ul {
+			gap: 5.25em !important;
+		}
+	}
 
-    li.wcb_session.type-wcb_session {
-        background-color: #fff;
-        border: 8px solid #1d5fb4;
-        min-height: 300px;
-        width: 25% !important;
+	li.wcb_session.type-wcb_session {
+		background-color: #fff;
+		border: 8px solid #1d5fb4;
+		min-height: 300px;
+		width: 25% !important;
 
-        h4 {
-            padding: 20px 30px 30px 30px;
-            margin: 0;
+		h4 {
+			padding: 20px 30px 30px 30px;
+			margin: 0;
 
-            a {
-                font-size: 23px;
-                font-family: Mulish;
-                font-weight: bold;
-                text-decoration: none;
-                color: #122b48;
-            }
-        }
-    }
+			a {
+				font-size: 23px;
+				font-family: $Mulish;
+				font-weight: $Bold;
+				text-decoration: none;
+				color: #122b48;
+			}
+		}
+	}
 
-    span.wp-block-wordcamp-session-speakers__name {
-        font-family: Mulish;
-        font-size: 20px;
-        font-weight: bold;
-        color: #cd3c5a;
-    }
+	span.wp-block-wordcamp-session-speakers__name {
+		font-family: $Mulish;
+		font-size: 20px;
+		font-weight: $Bold;
+		color: #cd3c5a;
+	}
 
-    ul#session-speaker-names li a {
-        font-family: Mulish;
-        font-size: 20px;
-        font-weight: bold;
-        color: #cd3c5a;
-        text-decoration: none;
-    }
+	ul#session-speaker-names li a {
+		font-family: $Mulish;
+		font-size: 20px;
+		font-weight: $Bold;
+		color: #cd3c5a;
+		text-decoration: none;
+	}
 
-    span.session-categories-links a {
-        font-family: Mulish;
-        font-size: 20px;
-        font-weight: bold;
-        color: #cd3c5a;
-        text-decoration: none;
-    }
+	span.session-categories-links a {
+		font-family: $Mulish;
+		font-size: 20px;
+		font-weight: $Bold;
+		color: #cd3c5a;
+		text-decoration: none;
+	}
 
-    .session-content.wp-block-post-content {
-        display: flex;
-        flex-direction: column-reverse;
-        align-items: flex-start;
-        justify-content: flex-start;
-    }
+	.session-content.wp-block-post-content {
+		display: flex;
+		flex-direction: column-reverse;
+		align-items: flex-start;
+		justify-content: flex-start;
+	}
 
-    ul#session-speaker-names {
-        display: flex;
-        order: 3;
-        padding-left: 0;
+	ul#session-speaker-names {
+		display: flex;
+		order: 3;
+		padding-left: 0;
 
-        li {
-            order: 1;
-        }
-    }
+		li {
+			order: 1;
+		}
+	}
 
-    span.session-categories-links {
-        order: 2;
-    }
+	span.session-categories-links {
+		order: 2;
+	}
 }
