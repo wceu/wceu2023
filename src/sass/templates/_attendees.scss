@@ -60,19 +60,21 @@
 				font-weight: $Bold;
 				font-size: 1.6rem;
 			}
+
 			a:not(first-child) {
-				width: 10%!important;
+				width: 10% !important;
 				float: left;
 				margin-top: 10px;
 				visibility: hidden;
-				margin-left: 17%!important;
+				margin-left: 17% !important;
 			}
 		}
+
 		.tix-attendee-twitter {
-    		width: 20%;
-			float: left;
-			margin-top: 10px;
-			visibility: hidden;
+				width: 20%;
+				float: left;
+				margin-top: 10px;
+				visibility: hidden;
 
 			&::before {
 				content: "";
