@@ -46,7 +46,7 @@
 				height: initial;
 				border-radius: 100%;
 				border: 4px solid;
-				border-color: $WCEU2023-Red-100;
+				border-color: $WCEU2023-Blue-100;
 			}
 
 			.tix-field {
@@ -60,51 +60,60 @@
 				font-weight: $Bold;
 				font-size: 1.6rem;
 			}
+			a:not(first-child) {
+				width: 10%!important;
+				float: left;
+				margin-top: 10px;
+				visibility: hidden;
+				margin-left: 17%!important;
+			}
 		}
-		// .tix-attendee-twitter {
-    	// 	width: 20%;
-		// 	float: left;
-		// 	margin-top: 10px;
-		// 	visibility: hidden;
+		.tix-attendee-twitter {
+    		width: 20%;
+			float: left;
+			margin-top: 10px;
+			visibility: hidden;
 
-		// 	&::before {
-		// 		content: "";
-		// 		width: 30px;
-		// 		height: 30px;
-		// 		display: inline-block;
-		// 		visibility: visible;
-		// 		background: url(//europe.wordcamp.org/2023/files/2023/02/Twitter.png) no-repeat;
-		// 		background-size: contain;
-		// 	}
-		// }
+			&::before {
+				content: "";
+				width: 30px;
+				height: 30px;
+				display: inline-block;
+				visibility: visible;
+				background: url(//europe.wordcamp.org/2023/files/2023/02/Twitter.png) no-repeat;
+				background-size: contain;
+			}
+		}
 
-		// .tix-attendee-url {
-		// 	width: 20%;
-		// 	float: left;
-		// 	margin-top: 10px;
-		// 	visibility: hidden;
+		.tix-attendee-url {
+			width: 20%;
+			float: left;
+			margin-top: 10px;
+			visibility: hidden;
 
-		// 	&::before {
-		// 		content: "";
-		// 		width: 30px;
-		// 		height: 30px;
-		// 		display: inline-block;
-		// 		visibility: visible;
-		// 	}
+			&::before {
+				content: "";
+				width: 30px;
+				height: 30px;
+				display: inline-block;
+				visibility: visible;
+				background: url(//europe.wordcamp.org/2023/files/2023/02/Website.png) no-repeat;
+				background-size: contain;
+			}
 
-		// 	&:nth-of-type(even) {
-		// 		&::before {
-		// 			background: url(//europe.wordcamp.org/2023/files/2023/02/Website.png) no-repeat;
-		// 			background-size: contain;
-		// 		}
-		// 	}
+			&:nth-of-type(even) {
+				&::before {
+					background: url(//europe.wordcamp.org/2023/files/2023/02/Website.png) no-repeat;
+					background-size: contain;
+				}
+			}
 
-		// 	&:nth-of-type(odd) {
-		// 		&::before {
-		// 			background: url(//europe.wordcamp.org/2023/files/2023/02/Wordpress.png) no-repeat;
-		// 			background-size: contain;
-		// 		}
-		// 	}
-		// }
+			&:nth-of-type(odd) {
+				&::before {
+					background: url(//europe.wordcamp.org/2023/files/2023/02/Wordpress.png) no-repeat;
+					background-size: contain;
+				}
+			}
+		}
 	}
 }
