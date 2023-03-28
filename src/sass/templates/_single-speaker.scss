@@ -1,5 +1,4 @@
-.wcb_speaker-template-wp-custom-template-speakers {
-
+.single-wcb_speaker {
 	@include media-min(md) {
 		.wp-block-group {
 			max-width: 1220px !important;
@@ -9,7 +8,7 @@
 		}
 	}
 
-	div.speaker-avatar {
+	.speaker-avatar {
 		display: none !important;
 	}
 }
