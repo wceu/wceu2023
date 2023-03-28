@@ -1,6 +1,6 @@
 .single-wcb_speaker {
 	@include media-min(md) {
-		.wp-block-group {
+		.wp-block-post-content {
 			max-width: 1220px !important;
 			margin-left: auto !important;
 			margin-right: auto !important;
@@ -9,6 +9,11 @@
 	}
 
 	.speaker-avatar {
+		display: none !important;
+	}
+
+	.speaker-sessions,
+	.speaker-session-names {
 		display: none !important;
 	}
 }
