@@ -16,4 +16,36 @@
 	#speaker-session-names {
 		display: none !important;
 	}
+
+	.wordcamp-image__avatar-container {
+		img {
+			border: 10px solid #1e5fb4;
+			border-radius: 100%;
+			width: 60% !important;
+		}
+	}
+
+	.wordcamp-speaker__sessions {
+		background-color: $WCEU2023-Turquoise-40;
+		padding: 20px;
+		margin-top: 30px;
+		font-size: 2.2rem;
+
+		.wordcamp-speaker__sessions-heading {
+			margin: 0;
+			font-size: 1.2rem;
+		}
+
+		.wordcamp-speaker__session-link {
+			color: $WCEU2023-DarkBlue-100 !important;
+			font-weight: $Bold;
+			text-decoration: none !important;
+			font-size: 1.5rem;
+		}
+
+		.wordcamp-speaker__session-info {
+			margin-top: 5px;
+			font-size: 1rem !important;
+		}
+	}
 }
