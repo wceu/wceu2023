@@ -28,7 +28,11 @@
 	.wordcamp-speaker__sessions {
 		background-color: $WCEU2023-Turquoise-40;
 		padding: 20px;
+		max-width: 1220px !important;
 		margin-top: 30px;
+		margin-left: auto !important;
+		margin-right: auto !important;
+		margin-bottom: 40px;
 		font-size: 2.2rem;
 
 		.wordcamp-speaker__sessions-heading {
