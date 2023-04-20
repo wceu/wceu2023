@@ -11,7 +11,13 @@
 		color: $WCEU2023-DarkBlue-100 !important;
 	}
 
-	.wordcamp-more-speakers__grid li:nth-of-type(n + 4) {
-		display: none;
+	.wordcamp-more-speakers__grid {
+		li {
+			display: flex;
+			flex-direction: column-reverse;
+		}
+		li:nth-of-type(n + 4) {
+			display: none;
+		}
 	}
 }
