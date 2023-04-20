@@ -10,4 +10,8 @@
 	.wordcamp-more-speakers__title {
 		color: $WCEU2023-DarkBlue-100 !important;
 	}
+
+	.wordcamp-more-speakers__grid li:nth-of-type(n + 4) {
+		display: none;
+	}
 }
