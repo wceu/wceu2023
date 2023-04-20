@@ -85,19 +85,19 @@
 
 	.session-content.wp-block-post-content {
 		display: flex;
-		flex-direction: column-reverse;
+		flex-direction: column;
 		align-items: flex-start;
 		justify-content: flex-start;
 	}
 
 	.session-content.session-content.wp-block-post-content p{
 		display: flex;
-		order: 1;
+		order: 4;
 	}
 
 	ul#session-speaker-names {
 		display: flex;
-		order: 3;
+		order: 1;
 		padding-left: 0;
 
 		li {
