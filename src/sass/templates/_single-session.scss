@@ -60,6 +60,13 @@
 		}
 	}
 
+	@media screen and (max-width: 992px) {
+		li.wcb_session.type-wcb_session {
+			
+			width: 100% !important;
+	  }
+	}
+
 	span.wp-block-wordcamp-session-speakers__name {
 		font-family: $Mulish;
 		font-size: 20px;
