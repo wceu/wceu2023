@@ -1,7 +1,4 @@
-main.session-group{
-	padding-left: 0px;
-	padding-right: 0px;
-}
+
 
 .single-wcb_session {
 	.speaker-session span a {
@@ -91,6 +88,11 @@ main.session-group{
 		flex-direction: column-reverse;
 		align-items: flex-start;
 		justify-content: flex-start;
+	}
+
+	.session-content.session-content.wp-block-post-content p{
+		display: flex;
+		order: 1;
 	}
 
 	ul#session-speaker-names {
