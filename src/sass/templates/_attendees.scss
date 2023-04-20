@@ -103,19 +103,13 @@
 				background-size: contain;
 			}
 
-			&:nth-of-type(even) {
-				&::before {
-					background: url(//europe.wordcamp.org/2023/files/2023/02/Website.png) no-repeat;
-					background-size: contain;
-				}
-			}
+		}
 
-			&:nth-of-type(odd) {
+		a[href^="https://profiles.wordpress.org"] {
 				&::before {
 					background: url(//europe.wordcamp.org/2023/files/2023/02/Wordpress.png) no-repeat;
 					background-size: contain;
 				}
 			}
-		}
 	}
 }
