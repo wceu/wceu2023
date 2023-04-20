@@ -12,10 +12,11 @@
 	}
 
 	.wordcamp-more-speakers__grid {
-		li {
+		li div {
 			display: flex;
 			flex-direction: column-reverse;
 		}
+
 		li:nth-of-type(n + 4) {
 			display: none;
 		}
