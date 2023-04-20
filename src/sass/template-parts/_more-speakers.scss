@@ -1,9 +1,9 @@
 .wordcamp-more-speakers__block {
-	width: 100%;
+	width: unset !important;
 	background-color: $WCEU2023-Yellow-40;
 
 	margin-left: calc(-1 * var(--wp--custom--spacing--outer)) !important;
-	margin-right: calc(-1 * var(--wp--custom--spacing--outer)) !important;
+	margin-right: calc(1 * var(--wp--custom--spacing--outer)) !important;
 
 	padding-left: var(--wp--custom--spacing--outer);
 	padding-right: var(--wp--custom--spacing--outer);
