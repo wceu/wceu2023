@@ -1,4 +1,6 @@
-.more-speakers {
-	width: 100% !important;
+.wordcamp-more-speakers__block {
+	margin-left: calc(-1 * var(--wp--custom--spacing--outer)) !important;
+	margin-right: calc(-1 * var(--wp--custom--spacing--outer)) !important;
+	width: unset;
 	background-color: $WCEU2023-Yellow-40;
 }
