@@ -18,11 +18,16 @@
 			div {
 				display: flex;
 				flex-direction: column-reverse;
+				height: 600px !important;
 				align-items: center;
 
 				a {
 					.wordcamp-image__avatar-link {
 						height: 450px !important;
+					}
+
+					img {
+						margin: 40px 0 !important;
 					}
 				}
 			}
