@@ -16,10 +16,15 @@
 			display: flex;
 			flex-direction: column-reverse;
 			height: 600px !important;
+			align-items: center;
 		}
 
-		li div a.wordcamp-image__avatar-link {
-			height: 450px !important;
+		li div a {
+			.wordcamp-image__avatar-link {
+				height: 450px !important;
+			}
+
+			align-items: center;
 		}
 
 		li:nth-of-type(n + 4) {
