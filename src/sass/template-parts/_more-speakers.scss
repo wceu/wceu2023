@@ -12,19 +12,21 @@
 	}
 
 	.wordcamp-more-speakers__grid {
-		li div {
-			display: flex;
-			flex-direction: column-reverse;
+		li {
 			height: 600px !important;
-			align-items: center;
-		}
 
-		li div a {
-			.wordcamp-image__avatar-link {
-				height: 450px !important;
+			div {
+				display: flex;
+				flex-direction: column-reverse;
+				height: 600px !important;
+				align-items: center;
+
+				a {
+					.wordcamp-image__avatar-link {
+						height: 450px !important;
+					}
+				}
 			}
-
-			align-items: center;
 		}
 
 		li:nth-of-type(n + 4) {
