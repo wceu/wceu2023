@@ -25,9 +25,6 @@
 		}
 
 		.find-them-on-the-booth {
-			.wp-block-column {
-				width: 33% !important;
-			}
 			img {
 				border-radius: 50% !important;
 			}
@@ -41,6 +38,12 @@
 			.staff-links {
 				width: 80%;
 				margin: 0 auto;
+				@include media-max(md) {
+					.wp-block-column {
+						max-width: 25%;
+					}
+				}
+
 				img {
 					max-width: 40px;
 				}
