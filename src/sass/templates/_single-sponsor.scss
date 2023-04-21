@@ -1,0 +1,72 @@
+.single-wcb_sponsor {
+	@include media-min(md) {
+		.wp-site-blocks {
+			background: url(//europe.wordcamp.org/2023/files/2023/04/sponsors-page-background.png),
+				url(//europe.wordcamp.org/2023/files/2023/04/sponsors-page-background-2.png);
+			background-position: 0 20%, 100% 40%;
+			background-repeat: no-repeat;
+			background-size: 600px;
+		}
+	}
+
+	.wp-block-post-featured-image {
+		max-width: 600px;
+	}
+	h4.wp-block-heading.sponsorship-tier {
+		font-size: 1.5rem;
+	}
+	.single-sponsor-content-container {
+		h2,
+		h3 {
+			font-family: $Philosopher;
+			font-size: 2.5rem;
+			margin-bottom: -15px;
+			color: $WCEU2023-DarkBlue-100;
+		}
+
+		.find-them-on-the-booth {
+			.wp-block-column {
+				width: 33% !important;
+			}
+			img {
+				border-radius: 50% !important;
+			}
+			.wp-element-caption {
+				font-size: 1.3rem;
+				margin-top: 20px;
+				color: $WCEU2023-DarkBlue-100;
+				font-family: $Mulish;
+			}
+
+			.staff-links {
+				width: 80%;
+				margin: 0 auto;
+				img {
+					max-width: 40px;
+				}
+			}
+		}
+
+		.join-their-party {
+			h5 {
+				font-weight: bold;
+				text-transform: initial !important;
+				font-size: 1.5rem;
+			}
+		}
+		.connect-with-them {
+			li {
+				font-size: 1.3rem;
+				a {
+					color: $WCEU2023-DarkBlue-100;
+				}
+			}
+		}
+	}
+	footer {
+		.footer-subscribe,
+		.social-bar {
+			display: none;
+		}
+	}
+}

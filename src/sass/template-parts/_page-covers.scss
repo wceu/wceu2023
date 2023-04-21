@@ -48,9 +48,10 @@
 	}
 }
 
-// organisers template header bg override | sponsors page
+// organisers template header bg override | sponsors page | single sponsor page
 .page-template-wp-custom-template-organisers-template,
-.page-template-wp-custom-template-sponsors {
+.page-template-wp-custom-template-sponsors,
+.single-wcb_sponsor {
 	header {
 		.wp-block-group.has-background {
 			background-color: $WCEU2023-Red-60 !important;
