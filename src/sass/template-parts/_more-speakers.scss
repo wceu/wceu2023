@@ -20,12 +20,13 @@
 				flex-direction: column-reverse;
 				height: 500px !important;
 				align-items: center;
+				padding: 100px 0 !important;
 
 				h3 {
+					margin-top: 10px !important;
 					a {
 						text-decoration: none;
 						color: $WCEU2023-Red-100 !important;
-						font-size: 2rem !important;
 						font-weight: bold !important;
 					}
 				}
