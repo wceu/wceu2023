@@ -1,3 +1,7 @@
+.align-center {
+	margin: 0 auto !important;
+}
+
 .wordcamp-more-speakers__block {
 	width: unset !important;
 	background-color: $WCEU2023-Yellow-40;
@@ -6,10 +10,6 @@
 	margin-right: calc(-1 * var(--wp--custom--spacing--outer)) !important;
 
 	padding: 40px var(--wp--custom--spacing--outer);
-
-	display: flex !important;
-	justify-content: center !important;
-	align-items: center !important;
 
 	.wordcamp-more-speakers__title {
 		padding: 50px 0 !important;
