@@ -18,8 +18,16 @@
 			div {
 				display: flex;
 				flex-direction: column-reverse;
-				height: 600px !important;
+				height: 500px !important;
 				align-items: center;
+
+				h3 {
+					a {
+						text-decoration: none;
+						color: $WCEU2023-Red-100 !important;
+						font-size: 1.5rem !important;
+					}
+				}
 
 				a {
 					.wordcamp-image__avatar-link {
