@@ -2,8 +2,9 @@
 	width: unset !important;
 	background-color: $WCEU2023-Yellow-40;
 
-	margin-left: calc(-1 * var(--wp--custom--spacing--outer)) !important;
-	margin-right: calc(-1 * var(--wp--custom--spacing--outer)) !important;
+	/* margin-left: calc(-1 * var(--wp--custom--spacing--outer)) !important;
+	margin-right: calc(-1 * var(--wp--custom--spacing--outer)) !important; */
+	margin: 0 auto !important;
 
 	padding: 40px var(--wp--custom--spacing--outer);
 
