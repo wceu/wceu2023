@@ -1,7 +1,7 @@
 .single-wcb_speaker {
 	@include media-min(md) {
 		.wp-block-post-content {
-			max-width: 1200px !important;
+			/* max-width: 1200px !important; */
 			margin-left: auto !important;
 			margin-right: auto !important;
 			margin-bottom: 40px;
@@ -54,8 +54,6 @@
 	.wordcamp-speaker__related-speakers {
 		background-color: $WCEU2023-Yellow-40;
 		width: 100vw !important;
-		margin-left: calc(-1 * var(--wp--custom--spacing--outer)) !important;
-		margin-right: calc(-1 * var(--wp--custom--spacing--outer)) !important;
 
 		.wordcamp-speaker__related-speakers-container {
 			max-width: 1200px !important;
