@@ -34,7 +34,7 @@
 	.wordcamp-speaker__sessions {
 		background-color: $WCEU2023-Turquoise-40;
 		padding: 20px;
-		max-width: 1220px !important;
+		max-width: 1200px !important;
 		margin: 100px auto !important;
 		font-size: 1.5rem !important;
 
@@ -53,6 +53,9 @@
 
 	.wordcamp-speaker__related-speakers {
 		background-color: $WCEU2023-Yellow-40;
+		width: 100vw !important;
+		margin: 0 !important;
+		padding: 0 !important;
 
 		.wordcamp-speaker__related-speakers-container {
 			margin: 0 auto !important;
