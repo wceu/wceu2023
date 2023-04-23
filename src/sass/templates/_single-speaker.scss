@@ -64,13 +64,19 @@
 			img {
 				border: 10px solid #1e5fb4;
 				border-radius: 50%;
-				margin: 100px auto;
+				margin: 0 auto !important;
 			}
 		}
 
-		.wordcamp-speaker__related-speaker-name {
+		.wordcamp-speaker__related-speaker-center {
+			align-items: center !important;
+		}
+
+		.wordcamp-speaker__related-speaker-name a {
 			color: $WCEU2023-Red-100 !important;
 			text-decoration: none !important;
+			font-size: 1.25rem !important;
+			font-weight: $SemiBold !important;
 		}
 	}
 }
