@@ -14,7 +14,6 @@
 
 	.speaker-social-handles a {
 		text-decoration: underline !important;
-		letter-spacing: 2% !important;
 		color: $WCEU2023-Red-100 !important;
 	}
 
@@ -33,21 +32,31 @@
 
 	.wordcamp-speaker__sessions {
 		background-color: $WCEU2023-Turquoise-40;
-		padding: 20px;
+		padding: 50px;
 		max-width: 1200px !important;
 		margin: 100px auto !important;
-		font-size: 1.5rem !important;
-
+		font-size: 1rem !important;
 		.wordcamp-speaker__sessions-heading {
 			margin: 0;
-			font-size: 2rem !important;
+			font-size: 1rem !important;
 		}
 
 		.wordcamp-speaker__session-link a {
-			color: $WCEU2023-Blue-100 !important;
+			color: $WCEU2023-DarkBlue-100 !important;
 			font-weight: $Bold;
 			text-decoration: underline !important;
-			font-size: 1.5rem !important;
+			font-size: 1rem !important;
+		}
+	}
+
+	.wordcamp-speaker__related-speakers {
+		background-color: $WCEU2023-Yellow-40;
+		padding: 60px;
+
+		.wordcamp-speaker__related-speakers-heading {
+			margin: 0;
+			font-size: 1rem !important;
+			color: $WCEU2023-DarkBlue-100 !important;
 		}
 	}
 }
