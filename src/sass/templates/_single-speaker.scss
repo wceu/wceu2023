@@ -54,6 +54,11 @@
 		background-color: $WCEU2023-Yellow-40 !important;
 		padding: 60px !important;
 
+		.wordcamp-speaker-relatec-speakers-container {
+			margin: 0 auto !important;
+			max-width: 1200px !important;
+		}
+
 		.wordcamp-speaker__related-speakers-heading {
 			margin: 0 !important;
 			font-size: 2rem !important;
@@ -66,10 +71,6 @@
 				border-radius: 50%;
 				margin: 0 auto !important;
 			}
-		}
-
-		.wordcamp-speaker__related-speaker-center {
-			align-items: center !important;
 		}
 
 		.wordcamp-speaker__related-speaker-name a {
