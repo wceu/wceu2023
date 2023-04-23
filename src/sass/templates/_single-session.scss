@@ -60,17 +60,17 @@
 		}
 	}
 
-	ul#session-speaker-names{
-		margin-left: 0!important;
-	}
+	// ul#session-speaker-names{
+	// 	margin-left: 0!important;
+	// }
 
-	span.session-categories-links{
-		margin-left: 0!important;
-	}
+	// span.session-categories-links{
+	// 	margin-left: 0!important;
+	// }
 
-	.session-content.session-content.wp-block-post-content p {
-		margin-left: 0!important;
-	}
+	// .session-content.session-content.wp-block-post-content p {
+	// 	margin-left: 0!important;
+	// }
 
 	//Media queries
 
@@ -107,8 +107,6 @@
 	.session-content.wp-block-post-content {
 		display: flex;
 		flex-direction: column;
-		align-items: flex-start;
-		justify-content: flex-start;
 	}
 
 	.session-content.session-content.wp-block-post-content p{
