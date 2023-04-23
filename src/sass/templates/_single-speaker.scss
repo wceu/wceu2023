@@ -51,11 +51,11 @@
 	}
 
 	.wordcamp-speaker__related-speakers {
-		background-color: $WCEU2023-Yellow-40;
-		padding: 60px;
+		background-color: $WCEU2023-Yellow-40 !important;
+		padding: 60px !important;
 
 		.wordcamp-speaker__related-speakers-heading {
-			margin: 0;
+			margin: 0 !important;
 			font-size: 2rem !important;
 			color: $WCEU2023-DarkBlue-100 !important;
 		}
