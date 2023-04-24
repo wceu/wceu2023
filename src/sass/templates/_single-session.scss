@@ -25,7 +25,6 @@
 		background-color: #fff;
 		border: 8px solid #1d5fb4;
 		min-height: 300px;
-		width: 25% !important;
 
 		h4 {
 			padding: 20px 30px 30px 30px;
@@ -71,6 +70,12 @@
 	}
 
 	// Media Queries
+
+	@media screen and (min-width: 995px) {
+		li.wcb_session.type-wcb_session {
+			width: 25% !important;
+	  }
+	}
 
 	@media screen and (max-width: 992px) {
 		li.wcb_session.type-wcb_session {
