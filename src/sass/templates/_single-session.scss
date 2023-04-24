@@ -69,12 +69,11 @@
 		font-weight: 700;
 		text-decoration: none;
 	}
-	
-	
+
+	// Media Queries
 
 	@media screen and (max-width: 992px) {
 		li.wcb_session.type-wcb_session {
-			
 			width: 100% !important;
 	  }
 	}
