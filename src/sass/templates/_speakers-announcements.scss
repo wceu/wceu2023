@@ -11,6 +11,11 @@
 				border-radius: 100%;
 				width: 300px !important;
 				height: 300px !important;
+				
+				@include media-max(md) {
+					width: 250px !important;
+					height: 250px !important;
+				}
 			}
 
 			.wordcamp-speakers__sessions {
@@ -53,6 +58,12 @@
 				.wordcamp-post-list__post:nth-child(5) {
 					width: calc(50% - 5px);
 				}
+			}
+		}
+
+		@include media-max(md) {
+			.wordcamp-post-list.wordcamp-post-list {
+				padding: 0;
 			}
 		}
 	}

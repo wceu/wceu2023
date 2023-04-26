@@ -50,6 +50,10 @@
 				border-radius: 100%;
 				width: 300px !important;
 				height: 300px !important;
+				@include media-max(md) {
+					width: 250px !important;
+					height: 250px !important;
+				}
 			}
 		}
 
