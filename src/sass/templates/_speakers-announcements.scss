@@ -38,19 +38,21 @@
 			}
 		}
 
-		.wordcamp-post-list {
-			display: inline-flex;
-			flex-wrap: wrap;
-			justify-content: space-evenly;
-			gap: 2em;
+		@include media-min(md) {
+			.wordcamp-post-list {
+				display: inline-flex;
+				flex-wrap: wrap;
+				justify-content: space-evenly;
+				gap: 2em;
 
-			.wordcamp-post-list__post {
-				max-width: calc(33.33% - 2em);
-			}
+				.wordcamp-post-list__post {
+					max-width: calc(33.33% - 2em);
+				}
 
-			.wordcamp-post-list__post:nth-child(4),
-			.wordcamp-post-list__post:nth-child(5) {
-				width: calc(50% - 5px);
+				.wordcamp-post-list__post:nth-child(4),
+				.wordcamp-post-list__post:nth-child(5) {
+					width: calc(50% - 5px);
+				}
 			}
 		}
 	}
