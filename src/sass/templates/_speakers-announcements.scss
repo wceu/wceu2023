@@ -1,8 +1,5 @@
-.wp-block-group.alignfull.speakers-anouncement-sl.is-layout-constrained.wp-container-8.wp-block-group-is-layout-constrained{
-		margin-left: auto !important;
-		margin-right: auto !important;
-		max-width: 1680px !important;
-	
+.alignfull.speakers-anouncement-sl {
+
 	.wordcamp-speaker {
 		.wordcamp-speakers__title a {
 			color: #c41e3a !important;
@@ -12,8 +9,8 @@
 		.wordcamp-image__avatar-container img {
 			border: 10px solid #1e5fb4;
 			border-radius: 100%;
-			width: 60% !important;
-			height: auto;
+			width: 300px !important;
+			height: 300px !important;
 		}
 
 		.wordcamp-speakers__sessions {
