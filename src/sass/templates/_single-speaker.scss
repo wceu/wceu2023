@@ -51,11 +51,20 @@
 			color: $WCEU2023-DarkBlue-100 !important;
 		}
 
-		.wordcamp-image__related-speaker-avatar img {
-			border: 10px solid #1e5fb4;
-			border-radius: 50%;
-			margin: 0 auto !important;
+		.wordcamp-image__related-speaker-avatar {
+			img {
+				border: 10px solid #1e5fb4;
+				border-radius: 100%;
+				width: 300px !important;
+				height: 300px !important;
+				@include media-max(md) {
+					width: 250px !important;
+					height: 250px !important;
+				}
+			}
 		}
+
+			
 
 		.wordcamp-speaker__related-speaker-name a {
 			color: $WCEU2023-Red-100 !important;
