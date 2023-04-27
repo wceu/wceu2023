@@ -1,12 +1,12 @@
 .single-wcb_speaker {
-	@include media-min(md) {
-		.wp-block-post-content {
-			max-width: 1200px !important;
-			margin-left: auto !important;
-			margin-right: auto !important;
-			margin-bottom: 40px;
-		}
-	}
+	// @include media-min(md) {
+	// 	.wp-block-post-content {
+	// 		max-width: 1200px !important;
+	// 		margin-left: auto !important;
+	// 		margin-right: auto !important;
+	// 		margin-bottom: 40px;
+	// 	}
+	// }
 
 	.speaker-avatar {
 		display: none !important;
@@ -33,7 +33,7 @@
 	.wordcamp-speaker__sessions {
 		background-color: $WCEU2023-Turquoise-40;
 		padding: 50px;
-		max-width: 1200px !important;
+		// max-width: 1200px !important;
 		margin: 100px auto !important;
 		font-size: 1rem !important;
 
