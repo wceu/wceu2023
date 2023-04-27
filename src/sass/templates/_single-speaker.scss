@@ -14,8 +14,16 @@
 	}
 
 	.wordcamp-image__avatar-container img {
-		border: 10px solid #1e5fb4;
-		border-radius: 50%;
+		img {
+			border: 10px solid #1e5fb4;
+			border-radius: 100%;
+			width: 300px !important;
+			height: 300px !important;
+			@include media-max(md) {
+				width: 250px !important;
+				height: 250px !important;
+			}
+		}
 	}
 
 	.wordcamp-speaker__sessions {
