@@ -24,6 +24,27 @@
 			}
 		}
 	}
+
+	// temp fix for the speaker name title and session category labels 
+	// todo: refactor
+	.wp-block-wordcamp-session-speakers__name:before {
+		content: 'Speaker: ';
+		a {
+			font-size: 1.5rem;
+			color: $WCEU2023-Red-100;
+			text-decoration: none!important;
+		}
+	}
+
+	.taxonomy-wcb_session_category.wp-block-post-terms:before {
+    	content: 'Category: ';
+		a {
+			font-size: 1.5rem;
+			color: $WCEU2023-Red-100;
+			text-decoration: none!important;
+		}
+	}
+
 }
 
 	.single-wcb_session ul#session-speaker-names{
