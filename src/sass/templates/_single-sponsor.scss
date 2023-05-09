@@ -12,9 +12,19 @@
 	.wp-block-post-featured-image {
 		max-width: 600px;
 	}
-	h4.wp-block-heading.sponsorship-tier {
-		font-size: 1.5rem;
+
+	.sponsorship-tier {
+		margin-bottom: -30px !important;
+
+		a {
+			color: #0a3773 !important;
+			font-size: 1.5rem !important;
+			pointer-events: none;
+			text-decoration: none !important;
+			font-weight: bold;
+		}
 	}
+
 	.single-sponsor-content-container {
 		h2,
 		h3 {
@@ -22,6 +32,10 @@
 			font-size: 2.5rem;
 			margin-bottom: -15px;
 			color: $WCEU2023-DarkBlue-100;
+		}
+
+		.taxonomy-wcb_sponsor_level {
+
 		}
 
 		.find-them-on-the-booth {
