@@ -1,5 +1,11 @@
 .single-wcb_sponsor {
+	
 	@include media-min(md) {
+
+		main {
+				padding: 30px;
+			}
+
 		.wp-site-blocks {
 			background: url(//europe.wordcamp.org/2023/files/2023/04/sponsors-page-background.png),
 				url(//europe.wordcamp.org/2023/files/2023/04/sponsors-page-background-2.png);
