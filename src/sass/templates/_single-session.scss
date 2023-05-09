@@ -6,21 +6,6 @@
 		display: none;
 	}
 
-	.session-footer {
-		padding: 100px 0;
-
-		h3 {
-			font-family: $Philosopher;
-			font-size: 40px;
-			font-weight: $Bold;
-			color: #083773;
-		}
-
-		ul {
-			gap: 5.25em !important;
-		}
-	}
-
 	li.wcb_session.type-wcb_session {
 		background-color: #fff;
 		border: 8px solid #1d5fb4;
