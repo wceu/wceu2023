@@ -1,4 +1,7 @@
 .page-template-wp-custom-template-sponsors {
+	.sharedaddy {
+		display: none;
+	}
 	@include media-min(md) {
 		.wp-site-blocks {
 			background:
