@@ -106,4 +106,27 @@
 			}
 		}
 	}
+
+	.acknowledgements {
+		.person {
+			.wp-block-image {
+				img {
+					border-radius: 50% !important;
+					height: 250px;
+					width: 250px;
+					object-fit: cover;
+				}
+			}
+
+			.wp-block-heading {
+				font-weight: 700;
+				margin-bottom: -25px;
+				}
+
+			.has-small-font-size {
+				font-size: 14px !important;
+				}
+		}
+	}
+
 }
