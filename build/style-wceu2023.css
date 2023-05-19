@@ -1376,6 +1376,9 @@ p.wp-block-post-author__name a {
 .page-template-wp-custom-template-schedule .inner-footer-subscribe-container {
   display: none;
 }
+.page-template-wp-custom-template-schedule h4.wordcamp-schedule__session-title {
+  justify-content: center;
+}
 
 /*--------------------------------------------------------------
 # Template Parts
