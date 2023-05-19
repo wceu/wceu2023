@@ -78,9 +78,10 @@
 	}
 }
 
-// speakers page & single speaker page
+// speakers page & single speaker page | schedule page
 .single-wcb_speaker,
-.page-template-wp-custom-template-speakers {
+.page-template-wp-custom-template-speakers,
+.page-template-wp-custom-template-schedule {
 	header {
 		.wp-block-group.has-background {
 			background-color: $WCEU2023-Red-60 !important;
