@@ -18,79 +18,76 @@
 		font-size: 2.6rem;
 	}
 
-	#wordcamp-schedule__day-2023-06-09-tracks-all,
-	#wordcamp-schedule__day-2023-06-10-tracks-all {
-		border-left: 8px solid $WCEU2023-Yellow-80;
-		background-color: $WCEU2023-Yellow-40;
-
-
-
-		.wordcamp-schedule__time-slot-header {
-			background-color: $WCEU2023-Yellow-80;
-			font-weight: $Bold;
-			font-size: 1rem;
-		}
-
-		.wordcamp-schedule__column-header {
-			font-size: 1.2rem;
-			line-height: 3;
-			background-color: $WCEU2023-Yellow-80;
-			color: $WCEU2023-DarkBlue-100;
-		}
-
-		.wordcamp-schedule__session {
-			background-color: $WCEU2023-Yellow-40;
-
-			&:hover {
-				background-color: $WCEU2023-Yellow-60;
-			}
-		}
-
-		.wordcamp-schedule__session-category {
-			color: $WCEU2023-Red-100;
-		}
-
-		.wordcamp-schedule__session-title {
-			font-size: 1.2em;
-			font-weight: 600;
-			a {
-				&:not(.fav-session-button) {
-					color: $WCEU2023-DarkBlue-100;
-				}
-			}
-		}
-
-	.wordcamp-schedule__time-slot-header {
-		box-shadow: none !important;
-	}
-	 .wordcamp-schedule__session{
-    		box-shadow: 0 0 1px 1px #fde9b1 !important;
-		}
-
-		a.fav-session-button {
-			color: $WCEU2023-DarkBlue-100;
-		}
-
-		.dashicons-star-filled:before {
-			content: "\f154";
-		}
-
-		.wcb-favourite-session {
-			.fav-session-button {
-				color: $WCEU2023-Yellow-100;
-			}
-
-			.dashicons-star-filled:before {
-				content: "\f155";
-			}
-		}
-	}
-
 	.inner-footer-subscribe-container {
 		display: none;
 	}
 
 	h4.wordcamp-schedule__session-title {
 		justify-content: center;
+	}
+}
+
+// global schedule styles
+.wordcamp-schedule__day {
+	border-left: 8px solid $WCEU2023-Yellow-80;
+	background-color: $WCEU2023-Yellow-40 !important;
+
+
+	.wordcamp-schedule__time-slot-header {
+		background-color: $WCEU2023-Yellow-60 !important;
+		font-weight: $Bold;
+		font-size: 1rem;
+		box-shadow: none !important;
+	}
+
+	.wordcamp-schedule__column-header {
+		font-size: 1.2rem;
+		line-height: 3;
+		background-color: $WCEU2023-Yellow-80 !important;
+		color: $WCEU2023-DarkBlue-100;
+	}
+
+	.wordcamp-schedule__session {
+		background-color: $WCEU2023-Yellow-40;
+
+		&:hover {
+			background-color: $WCEU2023-Yellow-60;
+		}
+	}
+
+	.wordcamp-schedule__session-category {
+		color: $WCEU2023-Red-100;
+	}
+
+	.wordcamp-schedule__session-title {
+		font-size: 1.2em;
+		font-weight: 600;
+		a {
+			&:not(.fav-session-button) {
+				color: $WCEU2023-DarkBlue-100;
+			}
+		}
+	}
+
+	.wordcamp-schedule__session{
+		box-shadow: 0 0 1px 1px #fde9b1 !important;
+	}
+
+	a.fav-session-button {
+		color: $WCEU2023-DarkBlue-100;
+	}
+
+	.dashicons-star-filled:before {
+		content: "\f154";
+	}
+
+	.wcb-favourite-session {
+		.fav-session-button {
+			color: $WCEU2023-Yellow-100;
+		}
+
+		.dashicons-star-filled:before {
+			content: "\f155";
+		}
 	}
 }
