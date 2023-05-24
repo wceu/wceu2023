@@ -36,11 +36,12 @@
 		font-weight: bold;
 	}
 
+
 	.wp-block-wordcamp-session-speakers__name {
 		&:before {
 			content: 'Speaker: ';
 		}
-		
+				
 		&:not(:first-child):before {
 			display: none;
 		}
@@ -51,6 +52,10 @@
 	}
 
 }
+
+	.wcb_session_category-panel .wp-block-wordcamp-session-speakers__name:before {
+		content: 'Speakers: ';
+	}
 
 	.single-wcb_session ul#session-speaker-names{
 		display: none;
