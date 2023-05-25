@@ -129,4 +129,9 @@
 		}
 	}
 
+	// hide images in organizers bio
+	.wordcamp-block__item-content.wordcamp-organizers__content.is-full img {
+		display: none;
+	}
+
 }
