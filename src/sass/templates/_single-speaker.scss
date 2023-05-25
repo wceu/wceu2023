@@ -83,6 +83,10 @@
 	.check-the-schedule {
 		margin-top: -25px!important;
 		margin-bottom: -25px!important;
+		.wp-block-button {
+		    width: 100%;
+    		max-width: 1000px;
+		}
 	}
 	.footer-subscribe {
 		display: none !important;
