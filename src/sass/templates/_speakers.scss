@@ -81,4 +81,8 @@
 			}
 		}
 	}
+
+	.wordcamp-post-list__post:is(:has(.wordcamp-speaker.wordcamp-speakers__post.slug-viola-gruner-2)) {
+ 		 display: none;
+	}
 }
