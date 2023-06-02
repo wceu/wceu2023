@@ -61,7 +61,7 @@
 			background-color: $WCEU2023-Turquoise-40;
 			padding: 20px;
 			margin-top: 30px;
-			font-size: 2.2rem;
+			font-size: 1.2rem;
 
 			.wordcamp-speakers__sessions-heading {
 				margin: 0;
@@ -81,6 +81,8 @@
 			}
 		}
 	}
+
+	
 
 	.wordcamp-post-list__post:is(:has(.wordcamp-speaker.wordcamp-speakers__post.slug-viola-gruner-2)) {
  		 display: none;
