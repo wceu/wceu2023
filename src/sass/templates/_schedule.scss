@@ -90,4 +90,10 @@
 			content: "\f155";
 		}
 	}
+
+	@media print {
+		.wordcamp-schedule__session {
+			display: initial !important;
+		}
+	}
 }
