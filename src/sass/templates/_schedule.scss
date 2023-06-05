@@ -94,6 +94,8 @@
 	@media print {
 		.wordcamp-schedule__session {
 			display: initial !important;
+			text-align: center !important;
+			background: none;
 		}
 	}
 }
